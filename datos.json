@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-10T15:50:30.109Z",
+ "generado": "2026-11-10T17:18:59.812Z",
  "periodo": {
   "desde": "2026-10-02",
   "hasta": "2026-11-09",
@@ -56,6 +56,44 @@
    "telefono": "Teléfono",
    "formulario": "Formulario",
    "cotizacion": "Cotización"
+  },
+  "m": {
+   "m2026-10": "Octubre (desde el 2)",
+   "m2026-11": "Noviembre (1 al 9)"
+  },
+  "s": {
+   "laborable": "De lunes a viernes",
+   "finde": "Fin de semana"
+  },
+  "w": {
+   "lun": "Lunes",
+   "mar": "Martes",
+   "mie": "Miércoles",
+   "jue": "Jueves",
+   "vie": "Viernes",
+   "sab": "Sábado",
+   "dom": "Domingo"
+  },
+  "h": {
+   "madrugada": "Madrugada (0 a 6 h)",
+   "manana": "Mañana (6 a 12 h)",
+   "tarde": "Tarde (12 a 18 h)",
+   "noche": "Noche (18 a 24 h)"
+  },
+  "o": {
+   "android": "Android",
+   "ios": "iPhone o iPad",
+   "windows": "Windows",
+   "mac": "Mac",
+   "otros": "Otros sistemas"
+  },
+  "g": {
+   "si": "Se quedaron",
+   "no": "Se fueron rápido"
+  },
+  "l": {
+   "es": "Español",
+   "en": "Inglés"
   }
  },
  "real": {
@@ -93,6 +131,44 @@
     "ecuador": 23.4,
     "fuera": 20
    },
+   "m": {
+    "m2026-10": 71.7,
+    "m2026-11": 28.3
+   },
+   "s": {
+    "laborable": 80,
+    "finde": 20
+   },
+   "w": {
+    "mar": 13.9,
+    "mie": 17.8,
+    "jue": 15.8,
+    "vie": 15,
+    "sab": 10.9,
+    "dom": 9.1,
+    "lun": 17.6
+   },
+   "h": {
+    "noche": 25.3,
+    "tarde": 40.5,
+    "madrugada": 7.5,
+    "manana": 26.7
+   },
+   "o": {
+    "android": 38.7,
+    "ios": 9.1,
+    "otros": 3.5,
+    "mac": 3.6,
+    "windows": 45.1
+   },
+   "g": {
+    "si": 42.6,
+    "no": 57.4
+   },
+   "l": {
+    "es": 97.2,
+    "en": 2.8
+   },
    "contacto": {
     "si": 1.3
    },
@@ -126,6 +202,29 @@
     "blog": 8.5,
     "servicios": 2.4,
     "articulo": 14.5
+   },
+   "m": {
+    "m2026-10": 84.8,
+    "m2026-11": 15.2
+   },
+   "s": {
+    "laborable": 93.3,
+    "finde": 6.7
+   },
+   "w": {
+    "vie": 9.1,
+    "lun": 21.8,
+    "mar": 13.9,
+    "mie": 31.5,
+    "jue": 17,
+    "sab": 5.5,
+    "dom": 1.2
+   },
+   "h": {
+    "tarde": 50.9,
+    "manana": 32.7,
+    "noche": 10.3,
+    "madrugada": 6.1
    }
   }
  },
@@ -148,7 +247,15 @@
      "n": "nueva",
      "y": "guayaquil",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261018",
+     "m": "m2026-10",
+     "s": "finde",
+     "w": "dom",
+     "h": "noche",
+     "o": "mac",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 2,
@@ -158,7 +265,15 @@
      "n": "nueva",
      "y": "fuera",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261011",
+     "m": "m2026-10",
+     "s": "finde",
+     "w": "dom",
+     "h": "noche",
+     "o": "ios",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 3,
@@ -168,7 +283,15 @@
      "n": "nueva",
      "y": "ecuador",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261011",
+     "m": "m2026-10",
+     "s": "finde",
+     "w": "dom",
+     "h": "noche",
+     "o": "mac",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 4,
@@ -178,7 +301,15 @@
      "n": "vuelve",
      "y": "guayaquil",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261011",
+     "m": "m2026-10",
+     "s": "finde",
+     "w": "dom",
+     "h": "noche",
+     "o": "mac",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 5,
@@ -188,7 +319,15 @@
      "n": "nueva",
      "y": "ecuador",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261011",
+     "m": "m2026-10",
+     "s": "finde",
+     "w": "dom",
+     "h": "noche",
+     "o": "android",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 6,
@@ -198,7 +337,15 @@
      "n": "nueva",
      "y": "fuera",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261004",
+     "m": "m2026-10",
+     "s": "finde",
+     "w": "dom",
+     "h": "noche",
+     "o": "mac",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 7,
@@ -208,7 +355,15 @@
      "n": "nueva",
      "y": "fuera",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261004",
+     "m": "m2026-10",
+     "s": "finde",
+     "w": "dom",
+     "h": "noche",
+     "o": "otros",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 8,
@@ -218,7 +373,15 @@
      "n": "nueva",
      "y": "fuera",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261023",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "vie",
+     "h": "noche",
+     "o": "windows",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 9,
@@ -228,7 +391,15 @@
      "n": "vuelve",
      "y": "quito",
      "contacto": null,
-     "calc": true
+     "calc": true,
+     "f": "20261005",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "lun",
+     "h": "noche",
+     "o": "windows",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 10,
@@ -238,7 +409,15 @@
      "n": "nueva",
      "y": "guayaquil",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261002",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "vie",
+     "h": "noche",
+     "o": "android",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 11,
@@ -248,7 +427,15 @@
      "n": "nueva",
      "y": "fuera",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261022",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "noche",
+     "o": "windows",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 12,
@@ -258,7 +445,15 @@
      "n": "vuelve",
      "y": "guayaquil",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261009",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "vie",
+     "h": "tarde",
+     "o": "windows",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 13,
@@ -268,7 +463,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261014",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde",
+     "o": "windows",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 14,
@@ -278,7 +481,15 @@
      "n": "nueva",
      "y": "ecuador",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261023",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "vie",
+     "h": "noche",
+     "o": "android",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 15,
@@ -288,7 +499,15 @@
      "n": "nueva",
      "y": "ecuador",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261007",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde",
+     "o": "android",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 16,
@@ -298,7 +517,15 @@
      "n": "nueva",
      "y": "ecuador",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261023",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "vie",
+     "h": "noche",
+     "o": "android",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 17,
@@ -308,7 +535,15 @@
      "n": "nueva",
      "y": "ecuador",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261010",
+     "m": "m2026-10",
+     "s": "finde",
+     "w": "sab",
+     "h": "noche",
+     "o": "android",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 18,
@@ -318,7 +553,15 @@
      "n": "nueva",
      "y": "ecuador",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261109",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "lun",
+     "h": "noche",
+     "o": "android",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 19,
@@ -328,7 +571,15 @@
      "n": "nueva",
      "y": "ecuador",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261107",
+     "m": "m2026-11",
+     "s": "finde",
+     "w": "sab",
+     "h": "noche",
+     "o": "android",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 20,
@@ -338,7 +589,15 @@
      "n": "nueva",
      "y": "fuera",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261102",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "lun",
+     "h": "tarde",
+     "o": "ios",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 21,
@@ -348,7 +607,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261007",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde",
+     "o": "otros",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 22,
@@ -358,7 +625,15 @@
      "n": "nueva",
      "y": "fuera",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261007",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde",
+     "o": "windows",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 23,
@@ -368,7 +643,15 @@
      "n": "nueva",
      "y": "guayaquil",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261107",
+     "m": "m2026-11",
+     "s": "finde",
+     "w": "sab",
+     "h": "tarde",
+     "o": "android",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 24,
@@ -378,7 +661,15 @@
      "n": "nueva",
      "y": "guayaquil",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261107",
+     "m": "m2026-11",
+     "s": "finde",
+     "w": "sab",
+     "h": "manana",
+     "o": "android",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 25,
@@ -388,7 +679,15 @@
      "n": "nueva",
      "y": "ecuador",
      "contacto": null,
-     "calc": true
+     "calc": true,
+     "f": "20261106",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "vie",
+     "h": "noche",
+     "o": "windows",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 26,
@@ -398,7 +697,15 @@
      "n": "vuelve",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261105",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "jue",
+     "h": "tarde",
+     "o": "windows",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 27,
@@ -408,7 +715,15 @@
      "n": "vuelve",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261008",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "tarde",
+     "o": "ios",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 28,
@@ -418,7 +733,15 @@
      "n": "vuelve",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261022",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "manana",
+     "o": "windows",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 29,
@@ -428,7 +751,15 @@
      "n": "nueva",
      "y": "guayaquil",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261105",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "jue",
+     "h": "manana",
+     "o": "android",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 30,
@@ -438,7 +769,15 @@
      "n": "nueva",
      "y": "guayaquil",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261007",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde",
+     "o": "android",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 31,
@@ -448,7 +787,15 @@
      "n": "nueva",
      "y": "guayaquil",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261027",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "manana",
+     "o": "android",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 32,
@@ -458,7 +805,15 @@
      "n": "nueva",
      "y": "guayaquil",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261109",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "lun",
+     "h": "noche",
+     "o": "android",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 33,
@@ -468,7 +823,15 @@
      "n": "nueva",
      "y": "ecuador",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261017",
+     "m": "m2026-10",
+     "s": "finde",
+     "w": "sab",
+     "h": "manana",
+     "o": "android",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 34,
@@ -478,7 +841,15 @@
      "n": "vuelve",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261026",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "lun",
+     "h": "manana",
+     "o": "windows",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 35,
@@ -488,7 +859,15 @@
      "n": "vuelve",
      "y": "fuera",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261107",
+     "m": "m2026-11",
+     "s": "finde",
+     "w": "sab",
+     "h": "tarde",
+     "o": "android",
+     "g": "no",
+     "l": "en"
     },
     {
      "id": 36,
@@ -498,7 +877,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261030",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "vie",
+     "h": "manana",
+     "o": "android",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 37,
@@ -508,7 +895,15 @@
      "n": "vuelve",
      "y": "guayaquil",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261015",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "tarde",
+     "o": "windows",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 38,
@@ -518,7 +913,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": "telefono",
-     "calc": false
+     "calc": false,
+     "f": "20261006",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "tarde",
+     "o": "windows",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 39,
@@ -528,7 +931,15 @@
      "n": "nueva",
      "y": "fuera",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261106",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "vie",
+     "h": "tarde",
+     "o": "android",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 40,
@@ -538,7 +949,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261109",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "lun",
+     "h": "madrugada",
+     "o": "ios",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 41,
@@ -548,7 +967,15 @@
      "n": "vuelve",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261029",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "manana",
+     "o": "windows",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 42,
@@ -558,7 +985,15 @@
      "n": "nueva",
      "y": "ecuador",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261027",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "noche",
+     "o": "windows",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 43,
@@ -568,7 +1003,15 @@
      "n": "nueva",
      "y": "cuenca",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261022",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "tarde",
+     "o": "android",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 44,
@@ -578,7 +1021,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261103",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "mar",
+     "h": "tarde",
+     "o": "windows",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 45,
@@ -588,7 +1039,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261030",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "vie",
+     "h": "noche",
+     "o": "windows",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 46,
@@ -598,7 +1057,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261019",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "lun",
+     "h": "manana",
+     "o": "windows",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 47,
@@ -608,7 +1075,15 @@
      "n": "nueva",
      "y": "ecuador",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261007",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "madrugada",
+     "o": "windows",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 48,
@@ -618,7 +1093,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261007",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "manana",
+     "o": "windows",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 49,
@@ -628,7 +1111,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261013",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "tarde",
+     "o": "android",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 50,
@@ -638,7 +1129,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261101",
+     "m": "m2026-11",
+     "s": "finde",
+     "w": "dom",
+     "h": "tarde",
+     "o": "android",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 51,
@@ -648,7 +1147,15 @@
      "n": "vuelve",
      "y": "ecuador",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261013",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "manana",
+     "o": "android",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 52,
@@ -658,7 +1165,15 @@
      "n": "vuelve",
      "y": "ecuador",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261104",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde",
+     "o": "windows",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 53,
@@ -668,7 +1183,15 @@
      "n": "vuelve",
      "y": "fuera",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261013",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "manana",
+     "o": "windows",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 54,
@@ -678,7 +1201,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261107",
+     "m": "m2026-11",
+     "s": "finde",
+     "w": "sab",
+     "h": "tarde",
+     "o": "windows",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 55,
@@ -688,7 +1219,15 @@
      "n": "nueva",
      "y": "guayaquil",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261008",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "manana",
+     "o": "windows",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 56,
@@ -698,7 +1237,15 @@
      "n": "vuelve",
      "y": "fuera",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261005",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "lun",
+     "h": "noche",
+     "o": "windows",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 57,
@@ -708,7 +1255,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261012",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "lun",
+     "h": "manana",
+     "o": "android",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 58,
@@ -718,7 +1273,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261109",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "lun",
+     "h": "tarde",
+     "o": "android",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 59,
@@ -728,7 +1291,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261021",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "madrugada",
+     "o": "android",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 60,
@@ -738,7 +1309,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261107",
+     "m": "m2026-11",
+     "s": "finde",
+     "w": "sab",
+     "h": "tarde",
+     "o": "android",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 61,
@@ -748,7 +1327,15 @@
      "n": "nueva",
      "y": "guayaquil",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261018",
+     "m": "m2026-10",
+     "s": "finde",
+     "w": "dom",
+     "h": "tarde",
+     "o": "android",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 62,
@@ -758,7 +1345,15 @@
      "n": "nueva",
      "y": "guayaquil",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261106",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "vie",
+     "h": "tarde",
+     "o": "android",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 63,
@@ -768,7 +1363,15 @@
      "n": "nueva",
      "y": "fuera",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261104",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "mie",
+     "h": "manana",
+     "o": "ios",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 64,
@@ -778,7 +1381,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": true
+     "calc": true,
+     "f": "20261026",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "lun",
+     "h": "manana",
+     "o": "windows",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 65,
@@ -788,7 +1399,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": true
+     "calc": true,
+     "f": "20261109",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "lun",
+     "h": "manana",
+     "o": "windows",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 66,
@@ -798,7 +1417,15 @@
      "n": "nueva",
      "y": "guayaquil",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261105",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "jue",
+     "h": "noche",
+     "o": "windows",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 67,
@@ -808,7 +1435,15 @@
      "n": "nueva",
      "y": "guayaquil",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261003",
+     "m": "m2026-10",
+     "s": "finde",
+     "w": "sab",
+     "h": "madrugada",
+     "o": "android",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 68,
@@ -818,7 +1453,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261005",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "lun",
+     "h": "manana",
+     "o": "windows",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 69,
@@ -828,7 +1471,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261021",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "manana",
+     "o": "windows",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 70,
@@ -838,7 +1489,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261024",
+     "m": "m2026-10",
+     "s": "finde",
+     "w": "sab",
+     "h": "tarde",
+     "o": "windows",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 71,
@@ -848,7 +1507,15 @@
      "n": "nueva",
      "y": "fuera",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261015",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "manana",
+     "o": "windows",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 72,
@@ -858,7 +1525,15 @@
      "n": "nueva",
      "y": "ecuador",
      "contacto": null,
-     "calc": true
+     "calc": true,
+     "f": "20261008",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "madrugada",
+     "o": "windows",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 73,
@@ -868,7 +1543,15 @@
      "n": "vuelve",
      "y": "guayaquil",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261022",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "tarde",
+     "o": "android",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 74,
@@ -878,7 +1561,15 @@
      "n": "nueva",
      "y": "fuera",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261105",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "jue",
+     "h": "tarde",
+     "o": "otros",
+     "g": "no",
+     "l": "en"
     },
     {
      "id": 75,
@@ -888,7 +1579,15 @@
      "n": "nueva",
      "y": "cuenca",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261027",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "manana",
+     "o": "windows",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 76,
@@ -898,7 +1597,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261007",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde",
+     "o": "windows",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 77,
@@ -908,7 +1615,15 @@
      "n": "nueva",
      "y": "fuera",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261019",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "lun",
+     "h": "tarde",
+     "o": "windows",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 78,
@@ -918,7 +1633,15 @@
      "n": "nueva",
      "y": "fuera",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261014",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "noche",
+     "o": "otros",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 79,
@@ -928,7 +1651,15 @@
      "n": "nueva",
      "y": "fuera",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261029",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "manana",
+     "o": "windows",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 80,
@@ -938,7 +1669,15 @@
      "n": "nueva",
      "y": "fuera",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261012",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "lun",
+     "h": "manana",
+     "o": "windows",
+     "g": "si",
+     "l": "en"
     },
     {
      "id": 81,
@@ -948,7 +1687,15 @@
      "n": "nueva",
      "y": "fuera",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261007",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "manana",
+     "o": "windows",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 82,
@@ -958,7 +1705,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261013",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "tarde",
+     "o": "android",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 83,
@@ -968,7 +1723,15 @@
      "n": "nueva",
      "y": "ecuador",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261107",
+     "m": "m2026-11",
+     "s": "finde",
+     "w": "sab",
+     "h": "tarde",
+     "o": "windows",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 84,
@@ -978,7 +1741,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261013",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "manana",
+     "o": "android",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 85,
@@ -988,7 +1759,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261002",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "vie",
+     "h": "tarde",
+     "o": "ios",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 86,
@@ -998,7 +1777,15 @@
      "n": "nueva",
      "y": "ecuador",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261030",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "vie",
+     "h": "madrugada",
+     "o": "android",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 87,
@@ -1008,7 +1795,15 @@
      "n": "nueva",
      "y": "ecuador",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261106",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "vie",
+     "h": "manana",
+     "o": "ios",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 88,
@@ -1018,7 +1813,15 @@
      "n": "nueva",
      "y": "ecuador",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261030",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "vie",
+     "h": "tarde",
+     "o": "android",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 89,
@@ -1028,7 +1831,15 @@
      "n": "nueva",
      "y": "ecuador",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261109",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "lun",
+     "h": "madrugada",
+     "o": "android",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 90,
@@ -1038,7 +1849,15 @@
      "n": "nueva",
      "y": "ecuador",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261109",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "lun",
+     "h": "noche",
+     "o": "android",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 91,
@@ -1048,7 +1867,15 @@
      "n": "nueva",
      "y": "ecuador",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261021",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "madrugada",
+     "o": "android",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 92,
@@ -1058,7 +1885,15 @@
      "n": "nueva",
      "y": "fuera",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261013",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "tarde",
+     "o": "ios",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 93,
@@ -1068,7 +1903,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261014",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde",
+     "o": "windows",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 94,
@@ -1078,7 +1921,15 @@
      "n": "nueva",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261105",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "jue",
+     "h": "tarde",
+     "o": "windows",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 95,
@@ -1088,7 +1939,15 @@
      "n": "nueva",
      "y": "guayaquil",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261002",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "vie",
+     "h": "tarde",
+     "o": "windows",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 96,
@@ -1098,7 +1957,15 @@
      "n": "nueva",
      "y": "ecuador",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261027",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "tarde",
+     "o": "android",
+     "g": "no",
+     "l": "es"
     },
     {
      "id": 97,
@@ -1108,7 +1975,15 @@
      "n": "nueva",
      "y": "guayaquil",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261028",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde",
+     "o": "windows",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 98,
@@ -1118,7 +1993,15 @@
      "n": "nueva",
      "y": "guayaquil",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261027",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "tarde",
+     "o": "windows",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 99,
@@ -1128,7 +2011,15 @@
      "n": "vuelve",
      "y": "quito",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261007",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "noche",
+     "o": "windows",
+     "g": "si",
+     "l": "es"
     },
     {
      "id": 100,
@@ -1138,7 +2029,15 @@
      "n": "nueva",
      "y": "cuenca",
      "contacto": null,
-     "calc": false
+     "calc": false,
+     "f": "20261020",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "manana",
+     "o": "ios",
+     "g": "no",
+     "l": "es"
     }
    ],
    "perdida": 31.82614516820664
@@ -1150,700 +2049,1200 @@
      "t": "telefono",
      "d": "celular",
      "c": "directo",
-     "e": "articulo"
+     "e": "articulo",
+     "f": "20261109",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "lun",
+     "h": "manana"
     },
     {
      "id": 2,
      "t": "telefono",
      "d": "celular",
      "c": "meta",
-     "e": "articulo"
+     "e": "articulo",
+     "f": "20261024",
+     "m": "m2026-10",
+     "s": "finde",
+     "w": "sab",
+     "h": "manana"
     },
     {
      "id": 3,
      "t": "whatsapp",
      "d": "celular",
      "c": "meta",
-     "e": "calculadoras"
+     "e": "calculadoras",
+     "f": "20261107",
+     "m": "m2026-11",
+     "s": "finde",
+     "w": "sab",
+     "h": "manana"
     },
     {
      "id": 4,
      "t": "whatsapp",
      "d": "celular",
      "c": "directo",
-     "e": "otras"
+     "e": "otras",
+     "f": "20261007",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "noche"
     },
     {
      "id": 5,
      "t": "whatsapp",
      "d": "celular",
      "c": "meta",
-     "e": "otras"
+     "e": "otras",
+     "f": "20261002",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "vie",
+     "h": "manana"
     },
     {
      "id": 6,
      "t": "whatsapp",
      "d": "celular",
      "c": "gads",
-     "e": "calculadoras"
+     "e": "calculadoras",
+     "f": "20261007",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "noche"
     },
     {
      "id": 7,
      "t": "telefono",
      "d": "escritorio",
      "c": "gads",
-     "e": "articulo"
+     "e": "articulo",
+     "f": "20261014",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde"
     },
     {
      "id": 8,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "directo",
-     "e": "blog"
+     "e": "blog",
+     "f": "20261021",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde"
     },
     {
      "id": 9,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "directo",
-     "e": "articulo"
+     "e": "articulo",
+     "f": "20261102",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "lun",
+     "h": "tarde"
     },
     {
      "id": 10,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "buscador",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261002",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "vie",
+     "h": "tarde"
     },
     {
      "id": 11,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "buscador",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261006",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "tarde"
     },
     {
      "id": 12,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "buscador",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261005",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "lun",
+     "h": "manana"
     },
     {
      "id": 13,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "buscador",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261029",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "manana"
     },
     {
      "id": 14,
      "t": "whatsapp",
      "d": "celular",
      "c": "buscador",
-     "e": "otras"
+     "e": "otras",
+     "f": "20261105",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "jue",
+     "h": "tarde"
     },
     {
      "id": 15,
      "t": "whatsapp",
      "d": "celular",
      "c": "directo",
-     "e": "articulo"
+     "e": "articulo",
+     "f": "20261008",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "tarde"
     },
     {
      "id": 16,
      "t": "whatsapp",
      "d": "celular",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261023",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "vie",
+     "h": "tarde"
     },
     {
      "id": 17,
      "t": "whatsapp",
      "d": "celular",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261008",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "manana"
     },
     {
      "id": 18,
      "t": "whatsapp",
      "d": "celular",
      "c": "gads",
-     "e": "blog"
+     "e": "blog",
+     "f": "20261014",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde"
     },
     {
      "id": 19,
      "t": "whatsapp",
      "d": "celular",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261102",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "lun",
+     "h": "tarde"
     },
     {
      "id": 20,
      "t": "whatsapp",
      "d": "celular",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261027",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "tarde"
     },
     {
      "id": 21,
      "t": "whatsapp",
      "d": "celular",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261021",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "noche"
     },
     {
      "id": 22,
      "t": "whatsapp",
      "d": "celular",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261107",
+     "m": "m2026-11",
+     "s": "finde",
+     "w": "sab",
+     "h": "manana"
     },
     {
      "id": 23,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "otros",
-     "e": "otras"
+     "e": "otras",
+     "f": "20261014",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde"
     },
     {
      "id": 24,
      "t": "telefono",
      "d": "celular",
      "c": "meta",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261022",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "madrugada"
     },
     {
      "id": 25,
      "t": "telefono",
      "d": "celular",
      "c": "meta",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261021",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde"
     },
     {
      "id": 26,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "buscador",
-     "e": "articulo"
+     "e": "articulo",
+     "f": "20261105",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "jue",
+     "h": "noche"
     },
     {
      "id": 27,
      "t": "whatsapp",
      "d": "celular",
      "c": "otros",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261102",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "lun",
+     "h": "manana"
     },
     {
      "id": 28,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "gads",
-     "e": "blog"
+     "e": "blog",
+     "f": "20261007",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "madrugada"
     },
     {
      "id": 29,
      "t": "telefono",
      "d": "celular",
      "c": "otros",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261021",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde"
     },
     {
      "id": 30,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261021",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "manana"
     },
     {
      "id": 31,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261023",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "vie",
+     "h": "madrugada"
     },
     {
      "id": 32,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261021",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "manana"
     },
     {
      "id": 33,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261026",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "lun",
+     "h": "noche"
     },
     {
      "id": 34,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261026",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "lun",
+     "h": "noche"
     },
     {
      "id": 35,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261002",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "vie",
+     "h": "tarde"
     },
     {
      "id": 36,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261014",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde"
     },
     {
      "id": 37,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261013",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "madrugada"
     },
     {
      "id": 38,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "gads",
-     "e": "otras"
+     "e": "otras",
+     "f": "20261028",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde"
     },
     {
      "id": 39,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "gads",
-     "e": "otras"
+     "e": "otras",
+     "f": "20261022",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "tarde"
     },
     {
      "id": 40,
      "t": "telefono",
      "d": "escritorio",
      "c": "meta",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261022",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "noche"
     },
     {
      "id": 41,
      "t": "whatsapp",
      "d": "celular",
      "c": "gads",
-     "e": "blog"
+     "e": "blog",
+     "f": "20261010",
+     "m": "m2026-10",
+     "s": "finde",
+     "w": "sab",
+     "h": "manana"
     },
     {
      "id": 42,
      "t": "whatsapp",
      "d": "celular",
      "c": "gads",
-     "e": "blog"
+     "e": "blog",
+     "f": "20261021",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde"
     },
     {
      "id": 43,
      "t": "whatsapp",
      "d": "celular",
      "c": "gads",
-     "e": "articulo"
+     "e": "articulo",
+     "f": "20261019",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "lun",
+     "h": "manana"
     },
     {
      "id": 44,
      "t": "whatsapp",
      "d": "celular",
      "c": "gads",
-     "e": "articulo"
+     "e": "articulo",
+     "f": "20261107",
+     "m": "m2026-11",
+     "s": "finde",
+     "w": "sab",
+     "h": "manana"
     },
     {
      "id": 45,
      "t": "whatsapp",
      "d": "celular",
      "c": "buscador",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261021",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "manana"
     },
     {
      "id": 46,
      "t": "whatsapp",
      "d": "celular",
      "c": "buscador",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261026",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "lun",
+     "h": "tarde"
     },
     {
      "id": 47,
      "t": "whatsapp",
      "d": "celular",
      "c": "buscador",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261007",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde"
     },
     {
      "id": 48,
      "t": "whatsapp",
      "d": "celular",
      "c": "buscador",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261019",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "lun",
+     "h": "tarde"
     },
     {
      "id": 49,
      "t": "whatsapp",
      "d": "celular",
      "c": "buscador",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261012",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "lun",
+     "h": "manana"
     },
     {
      "id": 50,
      "t": "whatsapp",
      "d": "celular",
      "c": "buscador",
-     "e": "calculadoras"
+     "e": "calculadoras",
+     "f": "20261029",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "manana"
     },
     {
      "id": 51,
      "t": "telefono",
      "d": "escritorio",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261021",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde"
     },
     {
      "id": 52,
      "t": "whatsapp",
      "d": "celular",
      "c": "otros",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261029",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "noche"
     },
     {
      "id": 53,
      "t": "telefono",
      "d": "celular",
      "c": "directo",
-     "e": "articulo"
+     "e": "articulo",
+     "f": "20261009",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "vie",
+     "h": "manana"
     },
     {
      "id": 54,
      "t": "whatsapp",
      "d": "celular",
      "c": "meta",
-     "e": "articulo"
+     "e": "articulo",
+     "f": "20261026",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "lun",
+     "h": "tarde"
     },
     {
      "id": 55,
      "t": "telefono",
      "d": "celular",
      "c": "gads",
-     "e": "articulo"
+     "e": "articulo",
+     "f": "20261021",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde"
     },
     {
      "id": 56,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "meta",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261029",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "manana"
     },
     {
      "id": 57,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "meta",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261007",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde"
     },
     {
      "id": 58,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "meta",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261028",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "manana"
     },
     {
      "id": 59,
      "t": "whatsapp",
      "d": "celular",
      "c": "meta",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261029",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "madrugada"
     },
     {
      "id": 60,
      "t": "whatsapp",
      "d": "celular",
      "c": "meta",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261007",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde"
     },
     {
      "id": 61,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "gads",
-     "e": "servicios"
+     "e": "servicios",
+     "f": "20261109",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "lun",
+     "h": "tarde"
     },
     {
      "id": 62,
      "t": "whatsapp",
      "d": "celular",
      "c": "correo",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261028",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde"
     },
     {
      "id": 63,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "correo",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261013",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "manana"
     },
     {
      "id": 64,
      "t": "formulario",
      "d": "escritorio",
      "c": "gads",
-     "e": "otras"
+     "e": "otras",
+     "f": "20261002",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "vie",
+     "h": "tarde"
     },
     {
      "id": 65,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "meta",
-     "e": "blog"
+     "e": "blog",
+     "f": "20261007",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "manana"
     },
     {
      "id": 66,
      "t": "telefono",
      "d": "celular",
      "c": "directo",
-     "e": "articulo"
+     "e": "articulo",
+     "f": "20261109",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "lun",
+     "h": "noche"
     },
     {
      "id": 67,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "gads",
-     "e": "articulo"
+     "e": "articulo",
+     "f": "20261008",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "tarde"
     },
     {
      "id": 68,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "gads",
-     "e": "articulo"
+     "e": "articulo",
+     "f": "20261012",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "lun",
+     "h": "manana"
     },
     {
      "id": 69,
      "t": "whatsapp",
      "d": "celular",
      "c": "gads",
-     "e": "servicios"
+     "e": "servicios",
+     "f": "20261014",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde"
     },
     {
      "id": 70,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "gads",
-     "e": "calculadoras"
+     "e": "calculadoras",
+     "f": "20261020",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "tarde"
     },
     {
      "id": 71,
      "t": "formulario",
      "d": "escritorio",
      "c": "buscador",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261008",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "tarde"
     },
     {
      "id": 72,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "buscador",
-     "e": "calculadoras"
+     "e": "calculadoras",
+     "f": "20261020",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "madrugada"
     },
     {
      "id": 73,
      "t": "formulario",
      "d": "escritorio",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261007",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde"
     },
     {
      "id": 74,
      "t": "formulario",
      "d": "escritorio",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261006",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "manana"
     },
     {
      "id": 75,
      "t": "formulario",
      "d": "escritorio",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261021",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "manana"
     },
     {
      "id": 76,
      "t": "formulario",
      "d": "escritorio",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261109",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "lun",
+     "h": "manana"
     },
     {
      "id": 77,
      "t": "formulario",
      "d": "escritorio",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261013",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "manana"
     },
     {
      "id": 78,
      "t": "formulario",
      "d": "escritorio",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261019",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "lun",
+     "h": "tarde"
     },
     {
      "id": 79,
      "t": "formulario",
      "d": "escritorio",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261021",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde"
     },
     {
      "id": 80,
      "t": "formulario",
      "d": "escritorio",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261006",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "manana"
     },
     {
      "id": 81,
      "t": "formulario",
      "d": "escritorio",
      "c": "directo",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261026",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "lun",
+     "h": "tarde"
     },
     {
      "id": 82,
      "t": "telefono",
      "d": "celular",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261030",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "vie",
+     "h": "tarde"
     },
     {
      "id": 83,
      "t": "whatsapp",
      "d": "celular",
      "c": "directo",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261013",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "tarde"
     },
     {
      "id": 84,
      "t": "whatsapp",
      "d": "celular",
      "c": "directo",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261109",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "lun",
+     "h": "tarde"
     },
     {
      "id": 85,
      "t": "whatsapp",
      "d": "celular",
      "c": "directo",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261013",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "manana"
     },
     {
      "id": 86,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "otros",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261007",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde"
     },
     {
      "id": 87,
      "t": "whatsapp",
      "d": "celular",
      "c": "buscador",
-     "e": "blog"
+     "e": "blog",
+     "f": "20261020",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "tarde"
     },
     {
      "id": 88,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "buscador",
-     "e": "otras"
+     "e": "otras",
+     "f": "20261029",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "tarde"
     },
     {
      "id": 89,
      "t": "formulario",
      "d": "celular",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261021",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "tarde"
     },
     {
      "id": 90,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "directo",
-     "e": "otras"
+     "e": "otras",
+     "f": "20261109",
+     "m": "m2026-11",
+     "s": "laborable",
+     "w": "lun",
+     "h": "manana"
     },
     {
      "id": 91,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "directo",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261029",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "manana"
     },
     {
      "id": 92,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "directo",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261016",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "vie",
+     "h": "tarde"
     },
     {
      "id": 93,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "directo",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261006",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "tarde"
     },
     {
      "id": 94,
      "t": "formulario",
      "d": "escritorio",
      "c": "otros",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261021",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "manana"
     },
     {
      "id": 95,
      "t": "whatsapp",
      "d": "escritorio",
      "c": "meta",
-     "e": "calculadoras"
+     "e": "calculadoras",
+     "f": "20261007",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mie",
+     "h": "manana"
     },
     {
      "id": 96,
      "t": "telefono",
      "d": "escritorio",
      "c": "directo",
-     "e": "articulo"
+     "e": "articulo",
+     "f": "20261026",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "lun",
+     "h": "noche"
     },
     {
      "id": 97,
      "t": "whatsapp",
      "d": "celular",
      "c": "gads",
-     "e": "otras"
+     "e": "otras",
+     "f": "20261029",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "jue",
+     "h": "tarde"
     },
     {
      "id": 98,
      "t": "whatsapp",
      "d": "celular",
      "c": "gads",
-     "e": "otras"
+     "e": "otras",
+     "f": "20261101",
+     "m": "m2026-11",
+     "s": "finde",
+     "w": "dom",
+     "h": "tarde"
     },
     {
      "id": 99,
      "t": "telefono",
      "d": "escritorio",
      "c": "gads",
-     "e": "inicio"
+     "e": "inicio",
+     "f": "20261006",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "mar",
+     "h": "tarde"
     },
     {
      "id": 100,
      "t": "telefono",
      "d": "celular",
      "c": "meta",
-     "e": "blog"
+     "e": "blog",
+     "f": "20261005",
+     "m": "m2026-10",
+     "s": "laborable",
+     "w": "lun",
+     "h": "tarde"
     }
    ],
    "perdida": 7.515151515151547
