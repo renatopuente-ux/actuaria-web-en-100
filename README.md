@@ -11,4 +11,4 @@ visitas, los 100 contactos y los porcentajes reales.
 
 Página: https://renatopuente-ux.github.io/actuaria-web-en-100/
 
-Área de Producto · Actuaria Consultores
+Área de Diseño de Producto UX UI · Actuaria Consultores
