@@ -9,6 +9,6 @@ Datos de Google Analytics 4 de actuaria.com y de la landing del estudio actuaria
 los cruces de Google Analytics para que reproduzcan cada total; no son registros de personas. `datos.json` trae las 100
 visitas, los 100 contactos y los porcentajes reales.
 
-Página: https://renatopuente-ux.github.io/actuaria-web-en-100/
+Página: https://100.actuaria.com/
 
 Área de Diseño de Producto UX UI · Actuaria Consultores
