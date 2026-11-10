@@ -114,7 +114,8 @@
   .tabla table { width: 100%; max-width: 760px; border-collapse: collapse; margin: 0 0 16px; font-size: 14px; }
   .tabla th, .tabla td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--linea); }
   .tabla th { font: 900 11px var(--f-sub); letter-spacing: .12em; text-transform: uppercase; color: var(--tinta-3); }
-  .tabla td:nth-child(n+2), .tabla th:nth-child(n+2) { text-align: right; white-space: nowrap; }
+  .tabla td:nth-child(n+2), .tabla th:nth-child(n+2) { text-align: right; }
+  .tabla td:nth-child(n+2) { white-space: nowrap; }
 
   dialog { width: min(760px, calc(100vw - 32px)); max-height: calc(100vh - 48px); border: 1px solid rgba(255, 255, 255, .16); border-radius: 18px; background: #0b1130; color: var(--tinta); padding: 0; }
   dialog::backdrop { background: rgba(3, 5, 14, .7); }
@@ -138,7 +139,8 @@
     .tabla { margin: 0 16px 8px; }
     .creditos { padding: 14px 16px 26px; }
   }
-  @media (max-width: 420px) { .marca { font-size: 15.5px; } .periodo { font-size: 11px; padding: 6px 9px; } .total-real { font-size: 11.5px; } .total-real b { font-size: 18px; } .grupo span { font-size: 12.5px; } }
+  @media (max-width: 420px) { .cab { column-gap: 10px; } .tabla table { font-size: 13px; } .tabla th, .tabla td { padding: 6px 6px; } .tabla th:nth-child(n+2), .tabla td:nth-child(n+2) { white-space: normal; } .marca { font-size: 15.5px; } .periodo { font-size: 11px; padding: 6px 9px; } .total-real { font-size: 11.5px; } .total-real b { font-size: 18px; } .grupo span { font-size: 12.5px; } }
+  @media (max-width: 374px) { .cab { grid-template-columns: minmax(0, 1fr); } .resumen { grid-row: 2; grid-column: 1; justify-self: start; justify-items: start; } .lentes { grid-row: 3; } }
 </style>
 </head>
 <body>
