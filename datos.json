@@ -1,9 +1,10 @@
 {
- "generado": "2026-11-10T14:50:39.216Z",
+ "generado": "2026-11-10T15:50:30.109Z",
  "periodo": {
   "desde": "2026-10-02",
   "hasta": "2026-11-09",
-  "texto": "del 2 de octubre al 9 de noviembre de 2026"
+  "texto": "del 2 de octubre al 9 de noviembre de 2026",
+  "corto": "2 oct – 9 nov 2026"
  },
  "fuente": "Google Analytics 4 (G-PG79TRGV7Z) · informes de adquisición, páginas de destino y eventos",
  "visitas": 12503,
