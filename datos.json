@@ -1,0 +1,1851 @@
+{
+ "generado": "2026-11-10T14:50:39.216Z",
+ "periodo": {
+  "desde": "2026-10-02",
+  "hasta": "2026-11-09",
+  "texto": "del 2 de octubre al 9 de noviembre de 2026"
+ },
+ "fuente": "Google Analytics 4 (G-PG79TRGV7Z) · informes de adquisición, páginas de destino y eventos",
+ "visitas": 12503,
+ "contactos": 165,
+ "porFigura": {
+  "visitas": 125,
+  "contactos": 1.7
+ },
+ "calculadoras": {
+  "usuarios": 520,
+  "usuariosTotal": 9834
+ },
+ "categorias": {
+  "d": {
+   "escritorio": "Computadora",
+   "celular": "Celular",
+   "tableta": "Tableta"
+  },
+  "c": {
+   "buscador": "Buscadores, sin pagar",
+   "gads": "Anuncios de Google",
+   "meta": "Anuncios en Facebook e Instagram",
+   "directo": "Directo",
+   "correo": "Correo",
+   "otros": "Otros sitios y redes"
+  },
+  "e": {
+   "inicio": "El inicio",
+   "landing": "La landing del estudio actuarial",
+   "articulo": "El artículo de la pauta",
+   "blog": "Otros artículos del blog",
+   "calculadoras": "Las calculadoras",
+   "servicios": "Las páginas de servicios",
+   "otras": "Otras páginas"
+  },
+  "n": {
+   "nueva": "Primera vez",
+   "vuelve": "Ya había venido"
+  },
+  "y": {
+   "quito": "Quito",
+   "guayaquil": "Guayaquil",
+   "cuenca": "Cuenca",
+   "ecuador": "Resto de Ecuador",
+   "fuera": "Fuera de Ecuador"
+  },
+  "t": {
+   "whatsapp": "WhatsApp",
+   "telefono": "Teléfono",
+   "formulario": "Formulario",
+   "cotizacion": "Cotización"
+  }
+ },
+ "real": {
+  "visitas": {
+   "d": {
+    "celular": 47.3,
+    "tableta": 0.3,
+    "escritorio": 52.4
+   },
+   "c": {
+    "meta": 26.4,
+    "directo": 21.4,
+    "buscador": 24.3,
+    "gads": 18.8,
+    "correo": 3.6,
+    "otros": 5.4
+   },
+   "e": {
+    "inicio": 29,
+    "otras": 13.5,
+    "calculadoras": 12,
+    "servicios": 1.7,
+    "blog": 18.7,
+    "landing": 10.8,
+    "articulo": 14.3
+   },
+   "n": {
+    "nueva": 84.1,
+    "vuelve": 15.9
+   },
+   "y": {
+    "quito": 34.1,
+    "guayaquil": 19.7,
+    "cuenca": 2.7,
+    "ecuador": 23.4,
+    "fuera": 20
+   },
+   "contacto": {
+    "si": 1.3
+   },
+   "calc": {
+    "si": 5.3
+   }
+  },
+  "contactos": {
+   "t": {
+    "whatsapp": 72.1,
+    "telefono": 14.5,
+    "formulario": 13.3,
+    "cotizacion": 0
+   },
+   "d": {
+    "escritorio": 53.3,
+    "celular": 46.7
+   },
+   "c": {
+    "gads": 44.8,
+    "buscador": 16.4,
+    "directo": 15.8,
+    "meta": 15.2,
+    "otros": 6.1,
+    "correo": 1.8
+   },
+   "e": {
+    "inicio": 57.6,
+    "otras": 10.9,
+    "calculadoras": 6.1,
+    "blog": 8.5,
+    "servicios": 2.4,
+    "articulo": 14.5
+   }
+  }
+ },
+ "conteos": {
+  "contactos": {
+   "whatsapp": 119,
+   "telefono": 24,
+   "formulario": 22,
+   "cotizacion": 0
+  }
+ },
+ "lentes": {
+  "visitas": {
+   "unidades": [
+    {
+     "id": 1,
+     "d": "escritorio",
+     "c": "otros",
+     "e": "blog",
+     "n": "nueva",
+     "y": "guayaquil",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 2,
+     "d": "celular",
+     "c": "meta",
+     "e": "landing",
+     "n": "nueva",
+     "y": "fuera",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 3,
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio",
+     "n": "nueva",
+     "y": "ecuador",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 4,
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio",
+     "n": "vuelve",
+     "y": "guayaquil",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 5,
+     "d": "celular",
+     "c": "meta",
+     "e": "blog",
+     "n": "nueva",
+     "y": "ecuador",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 6,
+     "d": "escritorio",
+     "c": "directo",
+     "e": "inicio",
+     "n": "nueva",
+     "y": "fuera",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 7,
+     "d": "escritorio",
+     "c": "directo",
+     "e": "inicio",
+     "n": "nueva",
+     "y": "fuera",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 8,
+     "d": "escritorio",
+     "c": "directo",
+     "e": "inicio",
+     "n": "nueva",
+     "y": "fuera",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 9,
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "calculadoras",
+     "n": "vuelve",
+     "y": "quito",
+     "contacto": null,
+     "calc": true
+    },
+    {
+     "id": 10,
+     "d": "celular",
+     "c": "buscador",
+     "e": "calculadoras",
+     "n": "nueva",
+     "y": "guayaquil",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 11,
+     "d": "escritorio",
+     "c": "correo",
+     "e": "inicio",
+     "n": "nueva",
+     "y": "fuera",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 12,
+     "d": "escritorio",
+     "c": "correo",
+     "e": "otras",
+     "n": "vuelve",
+     "y": "guayaquil",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 13,
+     "d": "escritorio",
+     "c": "otros",
+     "e": "landing",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 14,
+     "d": "celular",
+     "c": "buscador",
+     "e": "calculadoras",
+     "n": "nueva",
+     "y": "ecuador",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 15,
+     "d": "celular",
+     "c": "meta",
+     "e": "landing",
+     "n": "nueva",
+     "y": "ecuador",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 16,
+     "d": "celular",
+     "c": "meta",
+     "e": "landing",
+     "n": "nueva",
+     "y": "ecuador",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 17,
+     "d": "celular",
+     "c": "meta",
+     "e": "landing",
+     "n": "nueva",
+     "y": "ecuador",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 18,
+     "d": "celular",
+     "c": "meta",
+     "e": "landing",
+     "n": "nueva",
+     "y": "ecuador",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 19,
+     "d": "celular",
+     "c": "meta",
+     "e": "landing",
+     "n": "nueva",
+     "y": "ecuador",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 20,
+     "d": "celular",
+     "c": "otros",
+     "e": "blog",
+     "n": "nueva",
+     "y": "fuera",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 21,
+     "d": "escritorio",
+     "c": "directo",
+     "e": "otras",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 22,
+     "d": "escritorio",
+     "c": "correo",
+     "e": "inicio",
+     "n": "nueva",
+     "y": "fuera",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 23,
+     "d": "celular",
+     "c": "meta",
+     "e": "articulo",
+     "n": "nueva",
+     "y": "guayaquil",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 24,
+     "d": "celular",
+     "c": "meta",
+     "e": "articulo",
+     "n": "nueva",
+     "y": "guayaquil",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 25,
+     "d": "escritorio",
+     "c": "gads",
+     "e": "calculadoras",
+     "n": "nueva",
+     "y": "ecuador",
+     "contacto": null,
+     "calc": true
+    },
+    {
+     "id": 26,
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "inicio",
+     "n": "vuelve",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 27,
+     "d": "celular",
+     "c": "gads",
+     "e": "inicio",
+     "n": "vuelve",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 28,
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "blog",
+     "n": "vuelve",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 29,
+     "d": "celular",
+     "c": "buscador",
+     "e": "blog",
+     "n": "nueva",
+     "y": "guayaquil",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 30,
+     "d": "celular",
+     "c": "meta",
+     "e": "landing",
+     "n": "nueva",
+     "y": "guayaquil",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 31,
+     "d": "celular",
+     "c": "meta",
+     "e": "landing",
+     "n": "nueva",
+     "y": "guayaquil",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 32,
+     "d": "celular",
+     "c": "meta",
+     "e": "landing",
+     "n": "nueva",
+     "y": "guayaquil",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 33,
+     "d": "celular",
+     "c": "gads",
+     "e": "inicio",
+     "n": "nueva",
+     "y": "ecuador",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 34,
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio",
+     "n": "vuelve",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 35,
+     "d": "celular",
+     "c": "directo",
+     "e": "blog",
+     "n": "vuelve",
+     "y": "fuera",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 36,
+     "d": "celular",
+     "c": "buscador",
+     "e": "calculadoras",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 37,
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "blog",
+     "n": "vuelve",
+     "y": "guayaquil",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 38,
+     "d": "escritorio",
+     "c": "gads",
+     "e": "otras",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": "telefono",
+     "calc": false
+    },
+    {
+     "id": 39,
+     "d": "celular",
+     "c": "meta",
+     "e": "articulo",
+     "n": "nueva",
+     "y": "fuera",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 40,
+     "d": "celular",
+     "c": "directo",
+     "e": "blog",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 41,
+     "d": "escritorio",
+     "c": "otros",
+     "e": "blog",
+     "n": "vuelve",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 42,
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "blog",
+     "n": "nueva",
+     "y": "ecuador",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 43,
+     "d": "celular",
+     "c": "meta",
+     "e": "articulo",
+     "n": "nueva",
+     "y": "cuenca",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 44,
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "otras",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 45,
+     "d": "escritorio",
+     "c": "directo",
+     "e": "inicio",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 46,
+     "d": "escritorio",
+     "c": "directo",
+     "e": "inicio",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 47,
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "otras",
+     "n": "nueva",
+     "y": "ecuador",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 48,
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 49,
+     "d": "celular",
+     "c": "gads",
+     "e": "inicio",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 50,
+     "d": "celular",
+     "c": "gads",
+     "e": "inicio",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 51,
+     "d": "celular",
+     "c": "otros",
+     "e": "inicio",
+     "n": "vuelve",
+     "y": "ecuador",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 52,
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio",
+     "n": "vuelve",
+     "y": "ecuador",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 53,
+     "d": "escritorio",
+     "c": "directo",
+     "e": "inicio",
+     "n": "vuelve",
+     "y": "fuera",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 54,
+     "d": "escritorio",
+     "c": "directo",
+     "e": "blog",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 55,
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio",
+     "n": "nueva",
+     "y": "guayaquil",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 56,
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "servicios",
+     "n": "vuelve",
+     "y": "fuera",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 57,
+     "d": "celular",
+     "c": "meta",
+     "e": "landing",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 58,
+     "d": "celular",
+     "c": "meta",
+     "e": "articulo",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 59,
+     "d": "celular",
+     "c": "meta",
+     "e": "articulo",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 60,
+     "d": "celular",
+     "c": "meta",
+     "e": "articulo",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 61,
+     "d": "celular",
+     "c": "gads",
+     "e": "inicio",
+     "n": "nueva",
+     "y": "guayaquil",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 62,
+     "d": "celular",
+     "c": "gads",
+     "e": "inicio",
+     "n": "nueva",
+     "y": "guayaquil",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 63,
+     "d": "celular",
+     "c": "buscador",
+     "e": "blog",
+     "n": "nueva",
+     "y": "fuera",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 64,
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "calculadoras",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": true
+    },
+    {
+     "id": 65,
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "calculadoras",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": true
+    },
+    {
+     "id": 66,
+     "d": "escritorio",
+     "c": "directo",
+     "e": "otras",
+     "n": "nueva",
+     "y": "guayaquil",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 67,
+     "d": "celular",
+     "c": "directo",
+     "e": "calculadoras",
+     "n": "nueva",
+     "y": "guayaquil",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 68,
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 69,
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 70,
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 71,
+     "d": "escritorio",
+     "c": "directo",
+     "e": "blog",
+     "n": "nueva",
+     "y": "fuera",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 72,
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "calculadoras",
+     "n": "nueva",
+     "y": "ecuador",
+     "contacto": null,
+     "calc": true
+    },
+    {
+     "id": 73,
+     "d": "celular",
+     "c": "gads",
+     "e": "inicio",
+     "n": "vuelve",
+     "y": "guayaquil",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 74,
+     "d": "escritorio",
+     "c": "directo",
+     "e": "calculadoras",
+     "n": "nueva",
+     "y": "fuera",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 75,
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio",
+     "n": "nueva",
+     "y": "cuenca",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 76,
+     "d": "escritorio",
+     "c": "correo",
+     "e": "inicio",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 77,
+     "d": "escritorio",
+     "c": "directo",
+     "e": "otras",
+     "n": "nueva",
+     "y": "fuera",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 78,
+     "d": "escritorio",
+     "c": "directo",
+     "e": "otras",
+     "n": "nueva",
+     "y": "fuera",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 79,
+     "d": "escritorio",
+     "c": "directo",
+     "e": "otras",
+     "n": "nueva",
+     "y": "fuera",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 80,
+     "d": "escritorio",
+     "c": "directo",
+     "e": "otras",
+     "n": "nueva",
+     "y": "fuera",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 81,
+     "d": "escritorio",
+     "c": "otros",
+     "e": "otras",
+     "n": "nueva",
+     "y": "fuera",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 82,
+     "d": "celular",
+     "c": "directo",
+     "e": "calculadoras",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 83,
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "inicio",
+     "n": "nueva",
+     "y": "ecuador",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 84,
+     "d": "celular",
+     "c": "buscador",
+     "e": "blog",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 85,
+     "d": "celular",
+     "c": "buscador",
+     "e": "blog",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 86,
+     "d": "celular",
+     "c": "meta",
+     "e": "articulo",
+     "n": "nueva",
+     "y": "ecuador",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 87,
+     "d": "celular",
+     "c": "meta",
+     "e": "articulo",
+     "n": "nueva",
+     "y": "ecuador",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 88,
+     "d": "celular",
+     "c": "meta",
+     "e": "articulo",
+     "n": "nueva",
+     "y": "ecuador",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 89,
+     "d": "celular",
+     "c": "meta",
+     "e": "articulo",
+     "n": "nueva",
+     "y": "ecuador",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 90,
+     "d": "celular",
+     "c": "meta",
+     "e": "articulo",
+     "n": "nueva",
+     "y": "ecuador",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 91,
+     "d": "celular",
+     "c": "meta",
+     "e": "articulo",
+     "n": "nueva",
+     "y": "ecuador",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 92,
+     "d": "celular",
+     "c": "directo",
+     "e": "servicios",
+     "n": "nueva",
+     "y": "fuera",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 93,
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "blog",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 94,
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "blog",
+     "n": "nueva",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 95,
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "otras",
+     "n": "nueva",
+     "y": "guayaquil",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 96,
+     "d": "celular",
+     "c": "meta",
+     "e": "otras",
+     "n": "nueva",
+     "y": "ecuador",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 97,
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "calculadoras",
+     "n": "nueva",
+     "y": "guayaquil",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 98,
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "blog",
+     "n": "nueva",
+     "y": "guayaquil",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 99,
+     "d": "escritorio",
+     "c": "directo",
+     "e": "blog",
+     "n": "vuelve",
+     "y": "quito",
+     "contacto": null,
+     "calc": false
+    },
+    {
+     "id": 100,
+     "d": "celular",
+     "c": "meta",
+     "e": "articulo",
+     "n": "nueva",
+     "y": "cuenca",
+     "contacto": null,
+     "calc": false
+    }
+   ],
+   "perdida": 31.82614516820664
+  },
+  "contactos": {
+   "unidades": [
+    {
+     "id": 1,
+     "t": "telefono",
+     "d": "celular",
+     "c": "directo",
+     "e": "articulo"
+    },
+    {
+     "id": 2,
+     "t": "telefono",
+     "d": "celular",
+     "c": "meta",
+     "e": "articulo"
+    },
+    {
+     "id": 3,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "meta",
+     "e": "calculadoras"
+    },
+    {
+     "id": 4,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "directo",
+     "e": "otras"
+    },
+    {
+     "id": 5,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "meta",
+     "e": "otras"
+    },
+    {
+     "id": 6,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "gads",
+     "e": "calculadoras"
+    },
+    {
+     "id": 7,
+     "t": "telefono",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "articulo"
+    },
+    {
+     "id": 8,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "directo",
+     "e": "blog"
+    },
+    {
+     "id": 9,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "directo",
+     "e": "articulo"
+    },
+    {
+     "id": 10,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "inicio"
+    },
+    {
+     "id": 11,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "inicio"
+    },
+    {
+     "id": 12,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "inicio"
+    },
+    {
+     "id": 13,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "inicio"
+    },
+    {
+     "id": 14,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "buscador",
+     "e": "otras"
+    },
+    {
+     "id": 15,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "directo",
+     "e": "articulo"
+    },
+    {
+     "id": 16,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 17,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 18,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "gads",
+     "e": "blog"
+    },
+    {
+     "id": 19,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 20,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 21,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 22,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 23,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "otros",
+     "e": "otras"
+    },
+    {
+     "id": 24,
+     "t": "telefono",
+     "d": "celular",
+     "c": "meta",
+     "e": "inicio"
+    },
+    {
+     "id": 25,
+     "t": "telefono",
+     "d": "celular",
+     "c": "meta",
+     "e": "inicio"
+    },
+    {
+     "id": 26,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "articulo"
+    },
+    {
+     "id": 27,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "otros",
+     "e": "inicio"
+    },
+    {
+     "id": 28,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "blog"
+    },
+    {
+     "id": 29,
+     "t": "telefono",
+     "d": "celular",
+     "c": "otros",
+     "e": "inicio"
+    },
+    {
+     "id": 30,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 31,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 32,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 33,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 34,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 35,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 36,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 37,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 38,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "otras"
+    },
+    {
+     "id": 39,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "otras"
+    },
+    {
+     "id": 40,
+     "t": "telefono",
+     "d": "escritorio",
+     "c": "meta",
+     "e": "inicio"
+    },
+    {
+     "id": 41,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "gads",
+     "e": "blog"
+    },
+    {
+     "id": 42,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "gads",
+     "e": "blog"
+    },
+    {
+     "id": 43,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "gads",
+     "e": "articulo"
+    },
+    {
+     "id": 44,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "gads",
+     "e": "articulo"
+    },
+    {
+     "id": 45,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "buscador",
+     "e": "inicio"
+    },
+    {
+     "id": 46,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "buscador",
+     "e": "inicio"
+    },
+    {
+     "id": 47,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "buscador",
+     "e": "inicio"
+    },
+    {
+     "id": 48,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "buscador",
+     "e": "inicio"
+    },
+    {
+     "id": 49,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "buscador",
+     "e": "inicio"
+    },
+    {
+     "id": 50,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "buscador",
+     "e": "calculadoras"
+    },
+    {
+     "id": 51,
+     "t": "telefono",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 52,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "otros",
+     "e": "inicio"
+    },
+    {
+     "id": 53,
+     "t": "telefono",
+     "d": "celular",
+     "c": "directo",
+     "e": "articulo"
+    },
+    {
+     "id": 54,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "meta",
+     "e": "articulo"
+    },
+    {
+     "id": 55,
+     "t": "telefono",
+     "d": "celular",
+     "c": "gads",
+     "e": "articulo"
+    },
+    {
+     "id": 56,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "meta",
+     "e": "inicio"
+    },
+    {
+     "id": 57,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "meta",
+     "e": "inicio"
+    },
+    {
+     "id": 58,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "meta",
+     "e": "inicio"
+    },
+    {
+     "id": 59,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "meta",
+     "e": "inicio"
+    },
+    {
+     "id": 60,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "meta",
+     "e": "inicio"
+    },
+    {
+     "id": 61,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "servicios"
+    },
+    {
+     "id": 62,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "correo",
+     "e": "inicio"
+    },
+    {
+     "id": 63,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "correo",
+     "e": "inicio"
+    },
+    {
+     "id": 64,
+     "t": "formulario",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "otras"
+    },
+    {
+     "id": 65,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "meta",
+     "e": "blog"
+    },
+    {
+     "id": 66,
+     "t": "telefono",
+     "d": "celular",
+     "c": "directo",
+     "e": "articulo"
+    },
+    {
+     "id": 67,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "articulo"
+    },
+    {
+     "id": 68,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "articulo"
+    },
+    {
+     "id": 69,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "gads",
+     "e": "servicios"
+    },
+    {
+     "id": 70,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "calculadoras"
+    },
+    {
+     "id": 71,
+     "t": "formulario",
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "inicio"
+    },
+    {
+     "id": 72,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "calculadoras"
+    },
+    {
+     "id": 73,
+     "t": "formulario",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 74,
+     "t": "formulario",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 75,
+     "t": "formulario",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 76,
+     "t": "formulario",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 77,
+     "t": "formulario",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 78,
+     "t": "formulario",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 79,
+     "t": "formulario",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 80,
+     "t": "formulario",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 81,
+     "t": "formulario",
+     "d": "escritorio",
+     "c": "directo",
+     "e": "inicio"
+    },
+    {
+     "id": 82,
+     "t": "telefono",
+     "d": "celular",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 83,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "directo",
+     "e": "inicio"
+    },
+    {
+     "id": 84,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "directo",
+     "e": "inicio"
+    },
+    {
+     "id": 85,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "directo",
+     "e": "inicio"
+    },
+    {
+     "id": 86,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "otros",
+     "e": "inicio"
+    },
+    {
+     "id": 87,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "buscador",
+     "e": "blog"
+    },
+    {
+     "id": 88,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "buscador",
+     "e": "otras"
+    },
+    {
+     "id": 89,
+     "t": "formulario",
+     "d": "celular",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 90,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "directo",
+     "e": "otras"
+    },
+    {
+     "id": 91,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "directo",
+     "e": "inicio"
+    },
+    {
+     "id": 92,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "directo",
+     "e": "inicio"
+    },
+    {
+     "id": 93,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "directo",
+     "e": "inicio"
+    },
+    {
+     "id": 94,
+     "t": "formulario",
+     "d": "escritorio",
+     "c": "otros",
+     "e": "inicio"
+    },
+    {
+     "id": 95,
+     "t": "whatsapp",
+     "d": "escritorio",
+     "c": "meta",
+     "e": "calculadoras"
+    },
+    {
+     "id": 96,
+     "t": "telefono",
+     "d": "escritorio",
+     "c": "directo",
+     "e": "articulo"
+    },
+    {
+     "id": 97,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "gads",
+     "e": "otras"
+    },
+    {
+     "id": 98,
+     "t": "whatsapp",
+     "d": "celular",
+     "c": "gads",
+     "e": "otras"
+    },
+    {
+     "id": 99,
+     "t": "telefono",
+     "d": "escritorio",
+     "c": "gads",
+     "e": "inicio"
+    },
+    {
+     "id": 100,
+     "t": "telefono",
+     "d": "celular",
+     "c": "meta",
+     "e": "blog"
+    }
+   ],
+   "perdida": 7.515151515151547
+  }
+ }
+}
