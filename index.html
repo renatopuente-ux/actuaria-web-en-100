@@ -28,6 +28,9 @@
     --naranja: #f0794a; --naranja-suave: #ffbba1; --indigo: #7088f2;
   }
   * { box-sizing: border-box; }
+  /* The scrollbar is always reserved: the page height changes with each indicator, and a scrollbar that came and went
+     changed the stage width, which redid the layout without animation (the figures jumped instead of walking). */
+  html { overflow-y: scroll; scrollbar-gutter: stable; }
   html, body { margin: 0; background: var(--bg); color: var(--tinta); font: 400 15px/1.55 var(--f-body); -webkit-font-smoothing: antialiased; }
   a { color: var(--naranja-suave); }
   button { font: inherit; color: inherit; }
@@ -359,11 +362,12 @@
     return out.slice(0, k);
   }
 
-  function maquetar(animar = true) {
+  // continuar: a resize while (or after) walking keeps everyone moving to the new places, with no pause and no fade.
+  function maquetar(animar = true, continuar = false) {
     estado.entraron = true;
     medir();
     const ind = indicador();
-    estado.gruposPrev = estado.grupos;
+    estado.gruposPrev = continuar ? [] : estado.grupos;
     const lista = estado.figuras;
     let grupos;
     // space between the front row and the bottom of the stage, so the lit floor is whole above the text
@@ -409,7 +413,7 @@
         const p = ps[i];
         f.tx = Math.round(p.x + (r() - .5) * ESC * 2); f.ty = Math.round(p.y + (r() - .5) * ESC);
         const dist = Math.hypot(f.tx - f.x, f.ty - f.y);
-        f.retraso = animar && !reducir ? Math.min(380, dist * .4) * Math.random() : 0;
+        f.retraso = animar && !reducir && !continuar ? Math.min(380, dist * .4) * Math.random() : 0;
         // fast enough to arrive in about 1.6 s, never slower than a calm walk
         f.vel = Math.max(f.velocidad * (ESC / 3), dist / 1.6);
         f.t0 = ahora;
@@ -417,7 +421,7 @@
       });
     }
     estado.grupos = grupos;
-    estado.mezcla = animar && !reducir ? 0 : 1; estado.mezclaT0 = performance.now();
+    estado.mezcla = animar && !reducir && !continuar ? 0 : 1; estado.mezclaT0 = performance.now();
     pintarRotulos();
     pintarTexto();
   }
@@ -666,7 +670,7 @@
     setTimeout(quitarIntro, 5600);
   } else { quitarIntro(); }
   let anchoPrevio = W;
-  new ResizeObserver(() => { const a = lienzo.clientWidth; if (Math.abs(a - anchoPrevio) > 2) { anchoPrevio = a; maquetar(false); } }).observe(lienzo);
+  new ResizeObserver(() => { const a = lienzo.clientWidth; if (Math.abs(a - anchoPrevio) > 2) { anchoPrevio = a; if (estado.entraron) maquetar(true, true); } }).observe(lienzo);
   requestAnimationFrame(cuadro);
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => pintarRotulos());
 })();
