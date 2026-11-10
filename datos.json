@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-10T17:18:59.812Z",
+ "generado": "2026-11-10T20:17:32.350Z",
  "periodo": {
   "desde": "2026-10-02",
   "hasta": "2026-11-09",
@@ -234,6 +234,18 @@
    "telefono": 24,
    "formulario": 22,
    "cotizacion": 0
+  },
+  "dispositivos": {
+   "visitas": {
+    "escritorio": 6570,
+    "celular": 5922,
+    "tableta": 36
+   },
+   "contactos": {
+    "escritorio": 88,
+    "celular": 77,
+    "tableta": 0
+   }
   }
  },
  "lentes": {
