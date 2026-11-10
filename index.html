@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>actuaria.com en 100 visitas · Actuaria</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="Si actuaria.com recibiera 100 visitas: desde qué aparato llegan, por qué canal, por qué página entran y cuántas nos contactan. Datos de Google Analytics del 2 de octubre al 9 de noviembre de 2026.">
+<meta property="og:type" content="website"><meta property="og:locale" content="es_EC">
+<meta property="og:title" content="actuaria.com en 100 visitas">
+<meta property="og:description" content="Si la web recibiera 100 visitas: celular o computadora, de dónde llegan, por dónde entran y cuántas nos contactan.">
+<meta name="theme-color" content="#070b1c">
+<link rel="icon" type="image/png" href="https://cdn.prod.website-files.com/6967c96e0fba2ea4f94d3c69/6a9883c0a48926ccd2c2e1f4_Light.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Prompt:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* Actuaria type system: Lemon Milk Pro (site's own files on the Webflow CDN) for titles and big numbers, Nunito for
+     labels, Prompt for text. Dark navy stage so the coloured spotlights read; brand navy/indigo/orange lead the palette. */
+  @font-face { font-family: "Lemon Milk Pro"; src: url("https://cdn.prod.website-files.com/6967c96e0fba2ea4f94d3c69/6a8349e767be686373ed8862_Lemon%20Milk%20Pro%20Regular.otf") format("opentype"); font-weight: 400; font-display: swap; }
+  @font-face { font-family: "Lemon Milk Pro"; src: url("https://cdn.prod.website-files.com/6967c96e0fba2ea4f94d3c69/6a8349e6425dae8dfa2a027d_Lemon%20Milk%20Pro%20Bold.otf") format("opentype"); font-weight: 700; font-display: swap; }
+  :root {
+    --f-display: "Lemon Milk Pro", Tahoma, sans-serif; --f-sub: Nunito, system-ui, sans-serif; --f-body: Prompt, system-ui, sans-serif;
+    --bg: #070b1c; --bg-2: #0c1230; --linea: rgba(214, 222, 255, .12); --tinta: #e9ecf6; --tinta-2: rgba(233, 236, 246, .74); --tinta-3: rgba(233, 236, 246, .52);
+    --naranja: #f0794a; --naranja-suave: #ffbba1; --indigo: #7088f2;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--tinta); font: 400 15px/1.55 var(--f-body); -webkit-font-smoothing: antialiased; }
+  a { color: var(--naranja-suave); }
+  button { font: inherit; color: inherit; }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+  .cab { position: relative; z-index: 3; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 12px 24px; padding: 18px 28px 8px; }
+  .marca { font: 700 19px/1.1 var(--f-display); letter-spacing: .2px; margin: 0; white-space: nowrap; }
+  .marca em { font-style: normal; color: var(--naranja); }
+  .lentes { justify-self: center; display: inline-flex; padding: 4px; border-radius: 999px; background: rgba(255, 255, 255, .06); border: 1px solid var(--linea); }
+  .lentes button { border: 0; background: transparent; padding: 8px 16px; border-radius: 999px; cursor: pointer; font: 800 13px var(--f-sub); letter-spacing: .06em; text-transform: uppercase; color: var(--tinta-2); }
+  .lentes button[aria-pressed="true"] { background: var(--tinta); color: var(--bg); }
+  .periodo { justify-self: end; font: 700 12.5px var(--f-sub); color: var(--tinta-3); padding: 7px 12px; border: 1px solid var(--linea); border-radius: 999px; white-space: nowrap; }
+
+  .chips { position: relative; z-index: 3; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; padding: 8px 28px 4px; }
+  .chips button { border: 1px solid var(--linea); background: rgba(255, 255, 255, .04); padding: 7px 14px; border-radius: 999px; cursor: pointer; font: 700 13.5px var(--f-sub); color: var(--tinta); white-space: nowrap; }
+  .chips button:hover { border-color: rgba(255, 255, 255, .35); }
+  .chips button[aria-pressed="true"] { background: var(--tinta); color: var(--bg); border-color: var(--tinta); }
+
+  .escena { position: relative; margin: 6px 0 0; }
+  .escena canvas { display: block; width: 100%; touch-action: manipulation; cursor: default; }
+  .rotulos { position: absolute; inset: 0; pointer-events: none; }
+  .grupo { position: absolute; left: 0; top: 0; transform: translate(-50%, 0); text-align: center; pointer-events: auto; cursor: pointer; border: 0; background: none; padding: 0; transition: opacity .35s; max-width: 240px; }
+  .grupo b { display: block; font: 700 clamp(30px, 4.2vw, 58px)/1 var(--f-display); letter-spacing: -.5px; }
+  .grupo span { display: block; font: 800 14px/1.2 var(--f-sub); margin-top: 6px; color: var(--tinta); }
+  .grupo small { display: block; font: 500 11.5px/1.3 ui-monospace, Consolas, monospace; color: var(--tinta-3); margin-top: 3px; }
+  .grupo.es-chico b { font-size: clamp(24px, 3vw, 40px); }
+  .intro { position: absolute; inset: 0; display: grid; place-items: center; pointer-events: none; transition: opacity .8s; }
+  .intro p { margin: 0; font: 700 clamp(34px, 7vw, 92px)/1 var(--f-display); text-align: center; text-shadow: 0 6px 40px rgba(0, 0, 0, .6); }
+  .intro p em { font-style: normal; color: var(--naranja); }
+  .intro.es-oculta { opacity: 0; }
+
+  .ficha { position: absolute; z-index: 4; pointer-events: none; min-width: 200px; max-width: 260px; padding: 11px 13px; border-radius: 12px; background: rgba(9, 13, 34, .96); border: 1px solid rgba(255, 255, 255, .16); box-shadow: 0 14px 34px rgba(0, 0, 0, .5); font-size: 13px; line-height: 1.45; opacity: 0; transform: translate(-50%, calc(-100% - 14px)); transition: opacity .12s; }
+  .ficha.es-visible { opacity: 1; }
+  .ficha strong { display: block; font: 900 12px var(--f-sub); letter-spacing: .1em; text-transform: uppercase; color: var(--naranja-suave); margin-bottom: 4px; }
+  .ficha ul { margin: 0; padding: 0; list-style: none; }
+  .ficha li { display: flex; gap: 8px; }
+  .ficha li i { flex: 0 0 8px; height: 8px; margin-top: 6px; border-radius: 2px; }
+
+  .pie-escena { position: relative; z-index: 3; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 16px 28px; align-items: end; padding: 4px 28px 22px; }
+  .frase { margin: 0; font: 700 clamp(22px, 3.2vw, 38px)/1.15 var(--f-display); letter-spacing: -.2px; max-width: 980px; }
+  .frase b { font-weight: 700; }
+  .frase-sub { margin: 8px 0 0; font: 500 13px/1.5 var(--f-body); color: var(--tinta-3); max-width: 900px; }
+  .frase-sub code { font: 500 12px ui-monospace, Consolas, monospace; color: var(--tinta-2); }
+  .acciones { display: flex; gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
+  .acciones button { border: 1px solid var(--linea); background: rgba(255, 255, 255, .05); padding: 9px 15px; border-radius: 999px; cursor: pointer; font: 800 13px var(--f-sub); color: var(--tinta); white-space: nowrap; }
+  .acciones button:hover { border-color: rgba(255, 255, 255, .4); }
+
+  .tabla { margin: 0 28px 8px; border-top: 1px solid var(--linea); }
+  .tabla summary { cursor: pointer; padding: 12px 0; font: 800 13.5px var(--f-sub); color: var(--tinta-2); list-style: none; }
+  .tabla summary::before { content: "+ "; color: var(--naranja); }
+  .tabla[open] summary::before { content: "– "; }
+  .tabla table { width: 100%; max-width: 760px; border-collapse: collapse; margin: 0 0 16px; font-size: 14px; }
+  .tabla th, .tabla td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--linea); }
+  .tabla th { font: 900 11px var(--f-sub); letter-spacing: .12em; text-transform: uppercase; color: var(--tinta-3); }
+  .tabla td:nth-child(n+2), .tabla th:nth-child(n+2) { text-align: right; white-space: nowrap; }
+
+  dialog { width: min(760px, calc(100vw - 32px)); max-height: calc(100vh - 48px); border: 1px solid rgba(255, 255, 255, .16); border-radius: 18px; background: #0b1130; color: var(--tinta); padding: 0; }
+  dialog::backdrop { background: rgba(3, 5, 14, .7); }
+  .dlg { padding: 24px 26px 26px; overflow: auto; max-height: calc(100vh - 50px); }
+  .dlg h2 { font: 700 24px/1.15 var(--f-display); margin: 0 0 14px; }
+  .dlg h3 { font: 900 13px var(--f-sub); letter-spacing: .1em; text-transform: uppercase; color: var(--naranja-suave); margin: 18px 0 6px; }
+  .dlg p, .dlg li { color: var(--tinta-2); font-size: 14.5px; }
+  .dlg ul { padding-left: 20px; }
+  .dlg .cerrar { position: sticky; top: 0; float: right; border: 1px solid var(--linea); background: #0b1130; border-radius: 999px; width: 36px; height: 36px; cursor: pointer; font-size: 18px; line-height: 1; }
+  .creditos { padding: 16px 28px 30px; font-size: 12.5px; color: var(--tinta-3); border-top: 1px solid var(--linea); }
+  .creditos p { margin: 0 0 6px; max-width: 980px; }
+
+  @media (max-width: 820px) {
+    .cab { grid-template-columns: 1fr auto; padding: 14px 16px 6px; }
+    .lentes { grid-column: 1 / -1; grid-row: 2; justify-self: start; }
+    .periodo { grid-row: 1; grid-column: 2; }
+    .chips { justify-content: flex-start; flex-wrap: nowrap; overflow-x: auto; padding: 8px 16px 6px; scrollbar-width: none; }
+    .chips::-webkit-scrollbar { display: none; }
+    .pie-escena { grid-template-columns: minmax(0, 1fr); padding: 4px 16px 18px; }
+    .acciones { justify-content: flex-start; }
+    .tabla { margin: 0 16px 8px; }
+    .creditos { padding: 14px 16px 26px; }
+  }
+  @media (max-width: 420px) { .marca { font-size: 15.5px; } .periodo { font-size: 11px; padding: 6px 9px; } .grupo span { font-size: 12.5px; } }
+</style>
+</head>
+<body>
+<header class="cab">
+  <p class="marca">actuaria.com <em>en</em> 100</p>
+  <div class="lentes" role="group" aria-label="Qué ver">
+    <button type="button" data-lente="visitas" aria-pressed="true">100 visitas</button>
+    <button type="button" data-lente="contactos" aria-pressed="false">100 contactos</button>
+  </div>
+  <span class="periodo" id="periodo"></span>
+</header>
+<nav class="chips" id="chips" aria-label="Indicadores"></nav>
+
+<main>
+  <section class="escena" id="escena">
+    <canvas id="lienzo" role="img" aria-label=""></canvas>
+    <div class="rotulos" id="rotulos"></div>
+    <div class="intro" id="intro" aria-hidden="true"><p>¿Y si fueran <em>100</em>?</p></div>
+    <div class="ficha" id="ficha" role="status" aria-live="polite"></div>
+  </section>
+  <div class="pie-escena">
+    <div>
+      <p class="frase" id="frase" aria-live="polite"></p>
+      <p class="frase-sub" id="frase-sub"></p>
+    </div>
+    <div class="acciones"><button type="button" id="abrir-metodo">Cómo se hizo</button></div>
+  </div>
+  <details class="tabla" id="tabla"><summary>Ver las cifras en una tabla</summary><div id="tabla-cuerpo"></div></details>
+</main>
+
+<dialog id="metodo" aria-labelledby="metodo-titulo">
+  <div class="dlg">
+    <button type="button" class="cerrar" id="cerrar-metodo" aria-label="Cerrar">×</button>
+    <h2 id="metodo-titulo">Cómo se hizo</h2>
+    <div id="metodo-cuerpo"></div>
+  </div>
+</dialog>
+
+<footer class="creditos">
+  <p><strong>Área de Producto · Actuaria Consultores.</strong> Datos de Google Analytics 4 de actuaria.com y de la landing del estudio actuarial, <span id="pie-periodo"></span>. Solo se usan totales: ningún dato de una persona.</p>
+  <p>Inspirado en el formato «si fueran 100» de <a href="https://100.christianzurita.com/" target="_blank" rel="noopener">Ecuador en 100 personas</a>. Las figuras, el código y los datos de esta página son propios.</p>
+</footer>
+
+<script type="application/json" id="datos">{"generado":"2026-11-10T14:50:39.216Z","periodo":{"desde":"2026-10-02","hasta":"2026-11-09","texto":"del 2 de octubre al 9 de noviembre de 2026"},"fuente":"Google Analytics 4 (G-PG79TRGV7Z) · informes de adquisición, páginas de destino y eventos","visitas":12503,"contactos":165,"porFigura":{"visitas":125,"contactos":1.7},"calculadoras":{"usuarios":520,"usuariosTotal":9834},"categorias":{"d":{"escritorio":"Computadora","celular":"Celular","tableta":"Tableta"},"c":{"buscador":"Buscadores, sin pagar","gads":"Anuncios de Google","meta":"Anuncios en Facebook e Instagram","directo":"Directo","correo":"Correo","otros":"Otros sitios y redes"},"e":{"inicio":"El inicio","landing":"La landing del estudio actuarial","articulo":"El artículo de la pauta","blog":"Otros artículos del blog","calculadoras":"Las calculadoras","servicios":"Las páginas de servicios","otras":"Otras páginas"},"n":{"nueva":"Primera vez","vuelve":"Ya había venido"},"y":{"quito":"Quito","guayaquil":"Guayaquil","cuenca":"Cuenca","ecuador":"Resto de Ecuador","fuera":"Fuera de Ecuador"},"t":{"whatsapp":"WhatsApp","telefono":"Teléfono","formulario":"Formulario","cotizacion":"Cotización"}},"real":{"visitas":{"d":{"celular":47.3,"tableta":0.3,"escritorio":52.4},"c":{"meta":26.4,"directo":21.4,"buscador":24.3,"gads":18.8,"correo":3.6,"otros":5.4},"e":{"inicio":29,"otras":13.5,"calculadoras":12,"servicios":1.7,"blog":18.7,"landing":10.8,"articulo":14.3},"n":{"nueva":84.1,"vuelve":15.9},"y":{"quito":34.1,"guayaquil":19.7,"cuenca":2.7,"ecuador":23.4,"fuera":20},"contacto":{"si":1.3},"calc":{"si":5.3}},"contactos":{"t":{"whatsapp":72.1,"telefono":14.5,"formulario":13.3,"cotizacion":0},"d":{"escritorio":53.3,"celular":46.7},"c":{"gads":44.8,"buscador":16.4,"directo":15.8,"meta":15.2,"otros":6.1,"correo":1.8},"e":{"inicio":57.6,"otras":10.9,"calculadoras":6.1,"blog":8.5,"servicios":2.4,"articulo":14.5}}},"conteos":{"contactos":{"whatsapp":119,"telefono":24,"formulario":22,"cotizacion":0}},"lentes":{"visitas":{"unidades":[{"id":1,"d":"escritorio","c":"otros","e":"blog","n":"nueva","y":"guayaquil","contacto":null,"calc":false},{"id":2,"d":"celular","c":"meta","e":"landing","n":"nueva","y":"fuera","contacto":null,"calc":false},{"id":3,"d":"escritorio","c":"gads","e":"inicio","n":"nueva","y":"ecuador","contacto":null,"calc":false},{"id":4,"d":"escritorio","c":"gads","e":"inicio","n":"vuelve","y":"guayaquil","contacto":null,"calc":false},{"id":5,"d":"celular","c":"meta","e":"blog","n":"nueva","y":"ecuador","contacto":null,"calc":false},{"id":6,"d":"escritorio","c":"directo","e":"inicio","n":"nueva","y":"fuera","contacto":null,"calc":false},{"id":7,"d":"escritorio","c":"directo","e":"inicio","n":"nueva","y":"fuera","contacto":null,"calc":false},{"id":8,"d":"escritorio","c":"directo","e":"inicio","n":"nueva","y":"fuera","contacto":null,"calc":false},{"id":9,"d":"escritorio","c":"buscador","e":"calculadoras","n":"vuelve","y":"quito","contacto":null,"calc":true},{"id":10,"d":"celular","c":"buscador","e":"calculadoras","n":"nueva","y":"guayaquil","contacto":null,"calc":false},{"id":11,"d":"escritorio","c":"correo","e":"inicio","n":"nueva","y":"fuera","contacto":null,"calc":false},{"id":12,"d":"escritorio","c":"correo","e":"otras","n":"vuelve","y":"guayaquil","contacto":null,"calc":false},{"id":13,"d":"escritorio","c":"otros","e":"landing","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":14,"d":"celular","c":"buscador","e":"calculadoras","n":"nueva","y":"ecuador","contacto":null,"calc":false},{"id":15,"d":"celular","c":"meta","e":"landing","n":"nueva","y":"ecuador","contacto":null,"calc":false},{"id":16,"d":"celular","c":"meta","e":"landing","n":"nueva","y":"ecuador","contacto":null,"calc":false},{"id":17,"d":"celular","c":"meta","e":"landing","n":"nueva","y":"ecuador","contacto":null,"calc":false},{"id":18,"d":"celular","c":"meta","e":"landing","n":"nueva","y":"ecuador","contacto":null,"calc":false},{"id":19,"d":"celular","c":"meta","e":"landing","n":"nueva","y":"ecuador","contacto":null,"calc":false},{"id":20,"d":"celular","c":"otros","e":"blog","n":"nueva","y":"fuera","contacto":null,"calc":false},{"id":21,"d":"escritorio","c":"directo","e":"otras","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":22,"d":"escritorio","c":"correo","e":"inicio","n":"nueva","y":"fuera","contacto":null,"calc":false},{"id":23,"d":"celular","c":"meta","e":"articulo","n":"nueva","y":"guayaquil","contacto":null,"calc":false},{"id":24,"d":"celular","c":"meta","e":"articulo","n":"nueva","y":"guayaquil","contacto":null,"calc":false},{"id":25,"d":"escritorio","c":"gads","e":"calculadoras","n":"nueva","y":"ecuador","contacto":null,"calc":true},{"id":26,"d":"escritorio","c":"buscador","e":"inicio","n":"vuelve","y":"quito","contacto":null,"calc":false},{"id":27,"d":"celular","c":"gads","e":"inicio","n":"vuelve","y":"quito","contacto":null,"calc":false},{"id":28,"d":"escritorio","c":"buscador","e":"blog","n":"vuelve","y":"quito","contacto":null,"calc":false},{"id":29,"d":"celular","c":"buscador","e":"blog","n":"nueva","y":"guayaquil","contacto":null,"calc":false},{"id":30,"d":"celular","c":"meta","e":"landing","n":"nueva","y":"guayaquil","contacto":null,"calc":false},{"id":31,"d":"celular","c":"meta","e":"landing","n":"nueva","y":"guayaquil","contacto":null,"calc":false},{"id":32,"d":"celular","c":"meta","e":"landing","n":"nueva","y":"guayaquil","contacto":null,"calc":false},{"id":33,"d":"celular","c":"gads","e":"inicio","n":"nueva","y":"ecuador","contacto":null,"calc":false},{"id":34,"d":"escritorio","c":"gads","e":"inicio","n":"vuelve","y":"quito","contacto":null,"calc":false},{"id":35,"d":"celular","c":"directo","e":"blog","n":"vuelve","y":"fuera","contacto":null,"calc":false},{"id":36,"d":"celular","c":"buscador","e":"calculadoras","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":37,"d":"escritorio","c":"buscador","e":"blog","n":"vuelve","y":"guayaquil","contacto":null,"calc":false},{"id":38,"d":"escritorio","c":"gads","e":"otras","n":"nueva","y":"quito","contacto":"telefono","calc":false},{"id":39,"d":"celular","c":"meta","e":"articulo","n":"nueva","y":"fuera","contacto":null,"calc":false},{"id":40,"d":"celular","c":"directo","e":"blog","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":41,"d":"escritorio","c":"otros","e":"blog","n":"vuelve","y":"quito","contacto":null,"calc":false},{"id":42,"d":"escritorio","c":"buscador","e":"blog","n":"nueva","y":"ecuador","contacto":null,"calc":false},{"id":43,"d":"celular","c":"meta","e":"articulo","n":"nueva","y":"cuenca","contacto":null,"calc":false},{"id":44,"d":"escritorio","c":"buscador","e":"otras","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":45,"d":"escritorio","c":"directo","e":"inicio","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":46,"d":"escritorio","c":"directo","e":"inicio","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":47,"d":"escritorio","c":"buscador","e":"otras","n":"nueva","y":"ecuador","contacto":null,"calc":false},{"id":48,"d":"escritorio","c":"gads","e":"inicio","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":49,"d":"celular","c":"gads","e":"inicio","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":50,"d":"celular","c":"gads","e":"inicio","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":51,"d":"celular","c":"otros","e":"inicio","n":"vuelve","y":"ecuador","contacto":null,"calc":false},{"id":52,"d":"escritorio","c":"gads","e":"inicio","n":"vuelve","y":"ecuador","contacto":null,"calc":false},{"id":53,"d":"escritorio","c":"directo","e":"inicio","n":"vuelve","y":"fuera","contacto":null,"calc":false},{"id":54,"d":"escritorio","c":"directo","e":"blog","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":55,"d":"escritorio","c":"gads","e":"inicio","n":"nueva","y":"guayaquil","contacto":null,"calc":false},{"id":56,"d":"escritorio","c":"buscador","e":"servicios","n":"vuelve","y":"fuera","contacto":null,"calc":false},{"id":57,"d":"celular","c":"meta","e":"landing","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":58,"d":"celular","c":"meta","e":"articulo","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":59,"d":"celular","c":"meta","e":"articulo","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":60,"d":"celular","c":"meta","e":"articulo","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":61,"d":"celular","c":"gads","e":"inicio","n":"nueva","y":"guayaquil","contacto":null,"calc":false},{"id":62,"d":"celular","c":"gads","e":"inicio","n":"nueva","y":"guayaquil","contacto":null,"calc":false},{"id":63,"d":"celular","c":"buscador","e":"blog","n":"nueva","y":"fuera","contacto":null,"calc":false},{"id":64,"d":"escritorio","c":"buscador","e":"calculadoras","n":"nueva","y":"quito","contacto":null,"calc":true},{"id":65,"d":"escritorio","c":"buscador","e":"calculadoras","n":"nueva","y":"quito","contacto":null,"calc":true},{"id":66,"d":"escritorio","c":"directo","e":"otras","n":"nueva","y":"guayaquil","contacto":null,"calc":false},{"id":67,"d":"celular","c":"directo","e":"calculadoras","n":"nueva","y":"guayaquil","contacto":null,"calc":false},{"id":68,"d":"escritorio","c":"gads","e":"inicio","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":69,"d":"escritorio","c":"gads","e":"inicio","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":70,"d":"escritorio","c":"gads","e":"inicio","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":71,"d":"escritorio","c":"directo","e":"blog","n":"nueva","y":"fuera","contacto":null,"calc":false},{"id":72,"d":"escritorio","c":"buscador","e":"calculadoras","n":"nueva","y":"ecuador","contacto":null,"calc":true},{"id":73,"d":"celular","c":"gads","e":"inicio","n":"vuelve","y":"guayaquil","contacto":null,"calc":false},{"id":74,"d":"escritorio","c":"directo","e":"calculadoras","n":"nueva","y":"fuera","contacto":null,"calc":false},{"id":75,"d":"escritorio","c":"gads","e":"inicio","n":"nueva","y":"cuenca","contacto":null,"calc":false},{"id":76,"d":"escritorio","c":"correo","e":"inicio","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":77,"d":"escritorio","c":"directo","e":"otras","n":"nueva","y":"fuera","contacto":null,"calc":false},{"id":78,"d":"escritorio","c":"directo","e":"otras","n":"nueva","y":"fuera","contacto":null,"calc":false},{"id":79,"d":"escritorio","c":"directo","e":"otras","n":"nueva","y":"fuera","contacto":null,"calc":false},{"id":80,"d":"escritorio","c":"directo","e":"otras","n":"nueva","y":"fuera","contacto":null,"calc":false},{"id":81,"d":"escritorio","c":"otros","e":"otras","n":"nueva","y":"fuera","contacto":null,"calc":false},{"id":82,"d":"celular","c":"directo","e":"calculadoras","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":83,"d":"escritorio","c":"buscador","e":"inicio","n":"nueva","y":"ecuador","contacto":null,"calc":false},{"id":84,"d":"celular","c":"buscador","e":"blog","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":85,"d":"celular","c":"buscador","e":"blog","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":86,"d":"celular","c":"meta","e":"articulo","n":"nueva","y":"ecuador","contacto":null,"calc":false},{"id":87,"d":"celular","c":"meta","e":"articulo","n":"nueva","y":"ecuador","contacto":null,"calc":false},{"id":88,"d":"celular","c":"meta","e":"articulo","n":"nueva","y":"ecuador","contacto":null,"calc":false},{"id":89,"d":"celular","c":"meta","e":"articulo","n":"nueva","y":"ecuador","contacto":null,"calc":false},{"id":90,"d":"celular","c":"meta","e":"articulo","n":"nueva","y":"ecuador","contacto":null,"calc":false},{"id":91,"d":"celular","c":"meta","e":"articulo","n":"nueva","y":"ecuador","contacto":null,"calc":false},{"id":92,"d":"celular","c":"directo","e":"servicios","n":"nueva","y":"fuera","contacto":null,"calc":false},{"id":93,"d":"escritorio","c":"buscador","e":"blog","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":94,"d":"escritorio","c":"buscador","e":"blog","n":"nueva","y":"quito","contacto":null,"calc":false},{"id":95,"d":"escritorio","c":"buscador","e":"otras","n":"nueva","y":"guayaquil","contacto":null,"calc":false},{"id":96,"d":"celular","c":"meta","e":"otras","n":"nueva","y":"ecuador","contacto":null,"calc":false},{"id":97,"d":"escritorio","c":"buscador","e":"calculadoras","n":"nueva","y":"guayaquil","contacto":null,"calc":false},{"id":98,"d":"escritorio","c":"buscador","e":"blog","n":"nueva","y":"guayaquil","contacto":null,"calc":false},{"id":99,"d":"escritorio","c":"directo","e":"blog","n":"vuelve","y":"quito","contacto":null,"calc":false},{"id":100,"d":"celular","c":"meta","e":"articulo","n":"nueva","y":"cuenca","contacto":null,"calc":false}],"perdida":31.82614516820664},"contactos":{"unidades":[{"id":1,"t":"telefono","d":"celular","c":"directo","e":"articulo"},{"id":2,"t":"telefono","d":"celular","c":"meta","e":"articulo"},{"id":3,"t":"whatsapp","d":"celular","c":"meta","e":"calculadoras"},{"id":4,"t":"whatsapp","d":"celular","c":"directo","e":"otras"},{"id":5,"t":"whatsapp","d":"celular","c":"meta","e":"otras"},{"id":6,"t":"whatsapp","d":"celular","c":"gads","e":"calculadoras"},{"id":7,"t":"telefono","d":"escritorio","c":"gads","e":"articulo"},{"id":8,"t":"whatsapp","d":"escritorio","c":"directo","e":"blog"},{"id":9,"t":"whatsapp","d":"escritorio","c":"directo","e":"articulo"},{"id":10,"t":"whatsapp","d":"escritorio","c":"buscador","e":"inicio"},{"id":11,"t":"whatsapp","d":"escritorio","c":"buscador","e":"inicio"},{"id":12,"t":"whatsapp","d":"escritorio","c":"buscador","e":"inicio"},{"id":13,"t":"whatsapp","d":"escritorio","c":"buscador","e":"inicio"},{"id":14,"t":"whatsapp","d":"celular","c":"buscador","e":"otras"},{"id":15,"t":"whatsapp","d":"celular","c":"directo","e":"articulo"},{"id":16,"t":"whatsapp","d":"celular","c":"gads","e":"inicio"},{"id":17,"t":"whatsapp","d":"celular","c":"gads","e":"inicio"},{"id":18,"t":"whatsapp","d":"celular","c":"gads","e":"blog"},{"id":19,"t":"whatsapp","d":"celular","c":"gads","e":"inicio"},{"id":20,"t":"whatsapp","d":"celular","c":"gads","e":"inicio"},{"id":21,"t":"whatsapp","d":"celular","c":"gads","e":"inicio"},{"id":22,"t":"whatsapp","d":"celular","c":"gads","e":"inicio"},{"id":23,"t":"whatsapp","d":"escritorio","c":"otros","e":"otras"},{"id":24,"t":"telefono","d":"celular","c":"meta","e":"inicio"},{"id":25,"t":"telefono","d":"celular","c":"meta","e":"inicio"},{"id":26,"t":"whatsapp","d":"escritorio","c":"buscador","e":"articulo"},{"id":27,"t":"whatsapp","d":"celular","c":"otros","e":"inicio"},{"id":28,"t":"whatsapp","d":"escritorio","c":"gads","e":"blog"},{"id":29,"t":"telefono","d":"celular","c":"otros","e":"inicio"},{"id":30,"t":"whatsapp","d":"escritorio","c":"gads","e":"inicio"},{"id":31,"t":"whatsapp","d":"escritorio","c":"gads","e":"inicio"},{"id":32,"t":"whatsapp","d":"escritorio","c":"gads","e":"inicio"},{"id":33,"t":"whatsapp","d":"escritorio","c":"gads","e":"inicio"},{"id":34,"t":"whatsapp","d":"escritorio","c":"gads","e":"inicio"},{"id":35,"t":"whatsapp","d":"escritorio","c":"gads","e":"inicio"},{"id":36,"t":"whatsapp","d":"escritorio","c":"gads","e":"inicio"},{"id":37,"t":"whatsapp","d":"escritorio","c":"gads","e":"inicio"},{"id":38,"t":"whatsapp","d":"escritorio","c":"gads","e":"otras"},{"id":39,"t":"whatsapp","d":"escritorio","c":"gads","e":"otras"},{"id":40,"t":"telefono","d":"escritorio","c":"meta","e":"inicio"},{"id":41,"t":"whatsapp","d":"celular","c":"gads","e":"blog"},{"id":42,"t":"whatsapp","d":"celular","c":"gads","e":"blog"},{"id":43,"t":"whatsapp","d":"celular","c":"gads","e":"articulo"},{"id":44,"t":"whatsapp","d":"celular","c":"gads","e":"articulo"},{"id":45,"t":"whatsapp","d":"celular","c":"buscador","e":"inicio"},{"id":46,"t":"whatsapp","d":"celular","c":"buscador","e":"inicio"},{"id":47,"t":"whatsapp","d":"celular","c":"buscador","e":"inicio"},{"id":48,"t":"whatsapp","d":"celular","c":"buscador","e":"inicio"},{"id":49,"t":"whatsapp","d":"celular","c":"buscador","e":"inicio"},{"id":50,"t":"whatsapp","d":"celular","c":"buscador","e":"calculadoras"},{"id":51,"t":"telefono","d":"escritorio","c":"gads","e":"inicio"},{"id":52,"t":"whatsapp","d":"celular","c":"otros","e":"inicio"},{"id":53,"t":"telefono","d":"celular","c":"directo","e":"articulo"},{"id":54,"t":"whatsapp","d":"celular","c":"meta","e":"articulo"},{"id":55,"t":"telefono","d":"celular","c":"gads","e":"articulo"},{"id":56,"t":"whatsapp","d":"escritorio","c":"meta","e":"inicio"},{"id":57,"t":"whatsapp","d":"escritorio","c":"meta","e":"inicio"},{"id":58,"t":"whatsapp","d":"escritorio","c":"meta","e":"inicio"},{"id":59,"t":"whatsapp","d":"celular","c":"meta","e":"inicio"},{"id":60,"t":"whatsapp","d":"celular","c":"meta","e":"inicio"},{"id":61,"t":"whatsapp","d":"escritorio","c":"gads","e":"servicios"},{"id":62,"t":"whatsapp","d":"celular","c":"correo","e":"inicio"},{"id":63,"t":"whatsapp","d":"escritorio","c":"correo","e":"inicio"},{"id":64,"t":"formulario","d":"escritorio","c":"gads","e":"otras"},{"id":65,"t":"whatsapp","d":"escritorio","c":"meta","e":"blog"},{"id":66,"t":"telefono","d":"celular","c":"directo","e":"articulo"},{"id":67,"t":"whatsapp","d":"escritorio","c":"gads","e":"articulo"},{"id":68,"t":"whatsapp","d":"escritorio","c":"gads","e":"articulo"},{"id":69,"t":"whatsapp","d":"celular","c":"gads","e":"servicios"},{"id":70,"t":"whatsapp","d":"escritorio","c":"gads","e":"calculadoras"},{"id":71,"t":"formulario","d":"escritorio","c":"buscador","e":"inicio"},{"id":72,"t":"whatsapp","d":"escritorio","c":"buscador","e":"calculadoras"},{"id":73,"t":"formulario","d":"escritorio","c":"gads","e":"inicio"},{"id":74,"t":"formulario","d":"escritorio","c":"gads","e":"inicio"},{"id":75,"t":"formulario","d":"escritorio","c":"gads","e":"inicio"},{"id":76,"t":"formulario","d":"escritorio","c":"gads","e":"inicio"},{"id":77,"t":"formulario","d":"escritorio","c":"gads","e":"inicio"},{"id":78,"t":"formulario","d":"escritorio","c":"gads","e":"inicio"},{"id":79,"t":"formulario","d":"escritorio","c":"gads","e":"inicio"},{"id":80,"t":"formulario","d":"escritorio","c":"gads","e":"inicio"},{"id":81,"t":"formulario","d":"escritorio","c":"directo","e":"inicio"},{"id":82,"t":"telefono","d":"celular","c":"gads","e":"inicio"},{"id":83,"t":"whatsapp","d":"celular","c":"directo","e":"inicio"},{"id":84,"t":"whatsapp","d":"celular","c":"directo","e":"inicio"},{"id":85,"t":"whatsapp","d":"celular","c":"directo","e":"inicio"},{"id":86,"t":"whatsapp","d":"escritorio","c":"otros","e":"inicio"},{"id":87,"t":"whatsapp","d":"celular","c":"buscador","e":"blog"},{"id":88,"t":"whatsapp","d":"escritorio","c":"buscador","e":"otras"},{"id":89,"t":"formulario","d":"celular","c":"gads","e":"inicio"},{"id":90,"t":"whatsapp","d":"escritorio","c":"directo","e":"otras"},{"id":91,"t":"whatsapp","d":"escritorio","c":"directo","e":"inicio"},{"id":92,"t":"whatsapp","d":"escritorio","c":"directo","e":"inicio"},{"id":93,"t":"whatsapp","d":"escritorio","c":"directo","e":"inicio"},{"id":94,"t":"formulario","d":"escritorio","c":"otros","e":"inicio"},{"id":95,"t":"whatsapp","d":"escritorio","c":"meta","e":"calculadoras"},{"id":96,"t":"telefono","d":"escritorio","c":"directo","e":"articulo"},{"id":97,"t":"whatsapp","d":"celular","c":"gads","e":"otras"},{"id":98,"t":"whatsapp","d":"celular","c":"gads","e":"otras"},{"id":99,"t":"telefono","d":"escritorio","c":"gads","e":"inicio"},{"id":100,"t":"telefono","d":"celular","c":"meta","e":"blog"}],"perdida":7.515151515151547}}}</script>
+<script>
+(() => {
+  'use strict';
+  const D = JSON.parse(document.getElementById('datos').textContent);
+  const $ = (id) => document.getElementById(id);
+  const reducir = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const fmt = (x, dec = 1) => Number(x).toLocaleString('es-EC', { minimumFractionDigits: dec, maximumFractionDigits: dec });
+  const miles = (x) => Number(x).toLocaleString('es-EC').replace(/,/g, '.');
+
+  // ---------- Indicators ----------
+  const COL = { indigo: '#7088f2', naranja: '#f0794a', celeste: '#62b8e8', verde: '#5cc08f', ambar: '#f2b45a', lila: '#b08cf0', rosa: '#ee8fb0', gris: '#a3a9bd', crema: '#f3e6c8' };
+  const C = D.categorias;
+  const cats = (key, colores, frases, extra = {}) => Object.keys(colores).map((k) => ({ key: k, label: (extra.labels && extra.labels[k]) || C[key][k], color: COL[colores[k]], frase: frases[k] }));
+  const LENTES = {
+    visitas: {
+      unidad: 'visitas', titulo: 'Si actuaria.com recibiera 100 visitas…',
+      todas: () => `Cada figura representa unas ${miles(D.porFigura.visitas)} de las ${miles(D.visitas)} visitas reales, ${D.periodo.texto}. Elige un indicador arriba para ver cómo se agrupan.`,
+      indicadores: [
+        { key: 'd', label: 'Aparato', pregunta: '¿Desde qué aparato llega la visita?', cats: cats('d', { escritorio: 'indigo', celular: 'naranja', tableta: 'verde' }, { escritorio: 'llegan desde una computadora', celular: 'llegan desde el celular', tableta: 'llegan desde una tableta' }) },
+        { key: 'c', label: 'Cómo llegan', pregunta: '¿De dónde viene la visita? (grupo de canales de Google Analytics)', cats: cats('c', { buscador: 'verde', gads: 'ambar', meta: 'naranja', directo: 'indigo', correo: 'celeste', otros: 'gris' }, { buscador: 'llegan desde Google u otro buscador, sin pagar', gads: 'llegan por un anuncio de Google', meta: 'llegan por un anuncio en Facebook o Instagram', directo: 'llegan directo, con la dirección o un enlace guardado', correo: 'llegan desde un correo', otros: 'llegan desde otros sitios o redes' }) },
+        { key: 'e', label: 'Por dónde entran', pregunta: '¿Cuál es la primera página que ve?', cats: cats('e', { inicio: 'indigo', landing: 'naranja', articulo: 'rosa', blog: 'lila', calculadoras: 'verde', servicios: 'celeste', otras: 'gris' }, { inicio: 'entran por el inicio', landing: 'entran por la landing del estudio actuarial', articulo: 'entran por el artículo «Inflación y provisión de jubilación patronal», el de la pauta de redes', blog: 'entran por otro artículo del blog', calculadoras: 'entran por una calculadora', servicios: 'entran por una página de servicios', otras: 'entran por otra página' }, { labels: { articulo: 'El artículo de la pauta (inflación)' } }) },
+        { key: 'n', label: 'Primera vez', pregunta: '¿Ya había visitado la web antes?', cats: cats('n', { nueva: 'celeste', vuelve: 'ambar' }, { nueva: 'nos visitan por primera vez', vuelve: 'ya habían venido antes' }) },
+        { key: 'y', label: 'Desde dónde', pregunta: '¿Desde qué ciudad o país llega? (según Google Analytics)', cats: cats('y', { quito: 'indigo', guayaquil: 'naranja', cuenca: 'verde', ecuador: 'celeste', fuera: 'gris' }, { quito: 'son de Quito', guayaquil: 'son de Guayaquil', cuenca: 'son de Cuenca', ecuador: 'son del resto de Ecuador o de una ciudad sin dato', fuera: 'vienen de fuera de Ecuador, muchas desde centros de datos' }) },
+        { key: 'calc', label: 'Calculadoras', pregunta: '¿Usó alguna de las 12 calculadoras?', destacar: 'si', cats: [{ key: 'si', label: 'Usaron una calculadora', color: COL.verde, frase: 'usan una calculadora' }, { key: 'no', label: 'No la usaron', color: COL.gris, frase: 'no usan ninguna calculadora' }] },
+        { key: 'contacto', label: 'Nos contactan', pregunta: '¿Escribió por WhatsApp, llamó o envió el formulario?', destacar: 'si', cats: [{ key: 'si', label: 'Nos contactaron', color: COL.naranja, frase: 'nos contacta', fraseUno: 'nos contacta' }, { key: 'no', label: 'No nos contactaron', color: COL.gris, frase: 'no nos contactan' }] },
+      ],
+    },
+    contactos: {
+      unidad: 'contactos', titulo: 'Si fueran 100 contactos…',
+      todas: () => `Cada figura representa ${fmt(D.porFigura.contactos)} de los ${miles(D.contactos)} contactos reales, ${D.periodo.texto}: clics en WhatsApp y en el teléfono, y formularios enviados.`,
+      indicadores: [
+        { key: 't', label: 'Tipo de contacto', pregunta: '¿Cómo nos contactó?', cats: cats('t', { whatsapp: 'verde', telefono: 'celeste', formulario: 'indigo', cotizacion: 'naranja' }, { whatsapp: 'nos escriben por WhatsApp', telefono: 'nos llaman', formulario: 'envían el formulario', cotizacion: 'piden una cotización en la landing' }), cero: ['cotizacion'], notas: { cotizacion: 'se mide desde el 9 de noviembre' } },
+        { key: 'd', label: 'Aparato', pregunta: '¿Desde qué aparato nos contactó?', cats: cats('d', { escritorio: 'indigo', celular: 'naranja', tableta: 'verde' }, { escritorio: 'nos contactan desde una computadora', celular: 'nos contactan desde el celular', tableta: 'desde una tableta' }) },
+        { key: 'c', label: 'Cómo llegaron', pregunta: '¿De dónde venía la visita que nos contactó?', cats: cats('c', { buscador: 'verde', gads: 'ambar', meta: 'naranja', directo: 'indigo', correo: 'celeste', otros: 'gris' }, { buscador: 'llegaron desde Google u otro buscador, sin pagar', gads: 'llegaron por un anuncio de Google', meta: 'llegaron por un anuncio en Facebook o Instagram', directo: 'llegaron directo', correo: 'llegaron desde un correo', otros: 'llegaron desde otros sitios o redes' }) },
+        { key: 'e', label: 'Por dónde entraron', pregunta: '¿Por qué página había entrado?', cats: cats('e', { inicio: 'indigo', landing: 'naranja', articulo: 'rosa', blog: 'lila', calculadoras: 'verde', servicios: 'celeste', otras: 'gris' }, { inicio: 'habían entrado por el inicio', landing: 'habían entrado por la landing', articulo: 'habían entrado por el artículo de la pauta de redes', blog: 'habían entrado por otro artículo del blog', calculadoras: 'habían entrado por una calculadora', servicios: 'habían entrado por una página de servicios', otras: 'habían entrado por otra página' }, { labels: { articulo: 'El artículo de la pauta (inflación)' } }) },
+      ],
+    },
+  };
+  const unidades = {
+    visitas: D.lentes.visitas.unidades.map((u) => ({ ...u, calc: u.calc ? 'si' : 'no', tipo: u.contacto, contacto: u.contacto ? 'si' : 'no' })),
+    contactos: D.lentes.contactos.unidades.map((u) => ({ ...u, tipo: u.t })),
+  };
+  const realDe = (lente, ind, cat) => { const r = D.real[lente][ind]; if (!r) return null; if (ind === 'contacto' || ind === 'calc') return cat === 'si' ? r.si : Math.round((100 - r.si) * 10) / 10; return r[cat] ?? 0; };
+
+  // ---------- Pixel figures (own procedural sprites, 15 × 25 logical px) ----------
+  const FW = 15, FH = 25;
+  const PIEL = ['#f2cba7', '#e3b088', '#cf9466', '#b17646', '#8f5c35', '#6e4428'];
+  const PELO = ['#17110e', '#2b1b13', '#45291b', '#694528', '#8a8a92', '#dcd5c8', '#5a1f1a'];
+  const ROPA = ['#2f4ab8', '#c44b2a', '#3a7d5c', '#7a5bb0', '#d9a441', '#3d4b66', '#e8e2d6', '#8a2f3c', '#2c8aa6', '#5c5c66', '#d8775a', '#4c64d9'];
+  const PANT = ['#262b44', '#3b2f2a', '#4a5568', '#1f2533', '#6b5b4b', '#2d3a5a', '#59443a'];
+  const ZAP = ['#1a1a22', '#3b2a20', '#e9e6df', '#4a2a22'];
+  const BORDE = '#05060c';
+  function azar(semilla) { let a = semilla * 2654435761 >>> 0; return () => { a = (a + 0x6d2b79f5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }; }
+  const elegir = (r, arr) => arr[Math.floor(r() * arr.length)];
+  function hacerFigura(u, lente) {
+    const r = azar(u.id * 7 + (lente === 'contactos' ? 1000 : 0));
+    const piel = elegir(r, PIEL), pelo = r() < .14 ? elegir(r, ['#8a8a92', '#dcd5c8']) : elegir(r, PELO.slice(0, 5).concat(PELO[6]));
+    const estiloPelo = elegir(r, ['corto', 'corto', 'largo', 'largo', 'moño', 'rapado', 'gorra', 'melena']);
+    const arriba = elegir(r, ['camisa', 'camisa', 'terno', 'blusa', 'chompa', 'camiseta', 'camiseta', 'vestido']);
+    const ropa = elegir(r, ROPA), ropa2 = elegir(r, ROPA), pant = elegir(r, PANT), zap = elegir(r, ZAP);
+    const lentes = r() < .22, falda = arriba !== 'vestido' && r() < .2;
+    const aparato = lente === 'contactos' ? u.d : u.d;
+    const frames = [0, 1, 2].map((f) => {
+      const g = Array.from({ length: FH }, () => new Array(FW).fill(null));
+      const px = (x, y, c) => { if (x >= 0 && x < FW && y >= 0 && y < FH) g[y][x] = c; };
+      const rect = (x0, y0, x1, y1, c) => { for (let y = y0; y <= y1; y++) for (let x = x0; x <= x1; x++) px(x, y, c); };
+      // legs (f: 0 idle, 1 and 2 walking)
+      const piernas = f === 0 ? [[5, 6], [8, 9]] : f === 1 ? [[4, 5], [8, 9]] : [[5, 6], [9, 10]];
+      const largoPierna = 21;
+      if (arriba === 'vestido' || falda) {
+        const color = arriba === 'vestido' ? ropa : pant;
+        rect(4, 16, 10, 18, color); rect(3, 18, 11, 18, color);
+        for (const [a, b] of piernas) { rect(a, 19, b, largoPierna, piel); }
+      } else {
+        rect(5, 16, 9, 17, pant);
+        for (const [a, b] of piernas) rect(a, 16, b, largoPierna, pant);
+      }
+      for (const [a, b] of piernas) rect(a, 22, b, 22, zap);
+      // torso
+      const torso = arriba === 'terno' ? ropa2 === '#e8e2d6' ? '#2a3150' : '#2a3150' : ropa;
+      rect(4, 9, 10, 15, arriba === 'vestido' ? ropa : torso);
+      if (arriba === 'terno') { rect(7, 9, 7, 12, '#eceae4'); rect(7, 10, 7, 13, ropa2 === '#e8e2d6' ? '#c44b2a' : ropa2); px(6, 9, '#eceae4'); px(8, 9, '#eceae4'); }
+      if (arriba === 'camisa') { px(6, 9, '#f4f2ec'); px(8, 9, '#f4f2ec'); rect(7, 10, 7, 15, shade(ropa, -18)); }
+      if (arriba === 'blusa') { rect(6, 9, 8, 9, piel); }
+      if (arriba === 'chompa') { rect(4, 13, 10, 13, ropa2); }
+      if (arriba === 'camiseta') { px(7, 9, piel); }
+      // arms swing with the walk
+      const brazo = arriba === 'camiseta' || arriba === 'blusa' ? [ropa, piel] : [torso, torso];
+      const manoIzq = f === 1 ? 14 : f === 2 ? 15 : 15, manoDer = f === 1 ? 15 : f === 2 ? 14 : 15;
+      rect(3, 9, 3, manoIzq - 1, brazo[0]); if (brazo[1] === piel) rect(3, 12, 3, manoIzq - 1, piel); px(3, manoIzq, piel);
+      rect(11, 9, 11, manoDer - 1, brazo[0]); if (brazo[1] === piel) rect(11, 12, 11, manoDer - 1, piel); px(11, manoDer, piel);
+      // neck and head
+      rect(6, 8, 8, 8, piel);
+      rect(5, 3, 9, 7, piel);
+      px(6, 5, '#1b1410'); px(8, 5, '#1b1410');
+      if (lentes) { rect(5, 5, 9, 5, '#1d1f2b'); px(6, 5, '#7fd1ff'); px(8, 5, '#7fd1ff'); }
+      // hair
+      if (estiloPelo === 'gorra') { rect(4, 1, 10, 2, ropa2); rect(8, 3, 11, 3, ropa2); rect(4, 3, 4, 4, pelo); }
+      else if (estiloPelo === 'rapado') { rect(5, 2, 9, 2, pelo); }
+      else {
+        rect(5, 1, 9, 2, pelo); rect(4, 2, 4, 4, pelo); rect(10, 2, 10, 4, pelo); px(5, 3, pelo); px(9, 3, pelo);
+        if (estiloPelo === 'largo') { rect(4, 2, 4, 10, pelo); rect(10, 2, 10, 10, pelo); }
+        if (estiloPelo === 'melena') { rect(4, 2, 4, 7, pelo); rect(10, 2, 10, 7, pelo); }
+        if (estiloPelo === 'moño') { rect(6, 0, 8, 0, pelo); }
+      }
+      // the device of this visit (the only drawn detail that comes from the data)
+      if (aparato === 'celular') { rect(8, 11, 9, 13, '#23263a'); px(8, 11, '#a9e4ff'); px(8, 12, '#7cc9f2'); px(9, 12, '#a9e4ff'); rect(10, 12, 10, 13, piel); }
+      else if (aparato === 'escritorio') { rect(5, 11, 9, 13, '#c5cbd8'); px(7, 12, '#ffffff'); rect(4, 14, 10, 14, '#7a8194'); px(4, 13, piel); px(10, 13, piel); }
+      else if (aparato === 'tableta') { rect(6, 10, 9, 14, '#23263a'); rect(7, 11, 8, 13, '#9fdcff'); }
+      return dibujarCuadro(g);
+    });
+    return { frames, fase: r() * Math.PI * 2, paso: 120 + r() * 60, velocidad: 70 + r() * 40 };
+  }
+  function shade(hex, d) { const n = parseInt(hex.slice(1), 16); const c = (s) => Math.max(0, Math.min(255, ((n >> s) & 255) + d)); return '#' + ((c(16) << 16) | (c(8) << 8) | c(0)).toString(16).padStart(6, '0'); }
+  function dibujarCuadro(g) {
+    const cv = document.createElement('canvas'); cv.width = FW; cv.height = FH; const x = cv.getContext('2d');
+    // dark outline around the silhouette, like a pixel sprite
+    for (let y = 0; y < FH; y++) for (let i = 0; i < FW; i++) if (!g[y][i] && [[1, 0], [-1, 0], [0, 1], [0, -1]].some(([dx, dy]) => g[y + dy] && g[y + dy][i + dx])) { x.fillStyle = BORDE; x.fillRect(i, y, 1, 1); }
+    for (let y = 0; y < FH; y++) for (let i = 0; i < FW; i++) if (g[y][i]) { x.fillStyle = g[y][i]; x.fillRect(i, y, 1, 1); }
+    return cv;
+  }
+
+  // ---------- Stage ----------
+  const lienzo = $('lienzo'), ctx = lienzo.getContext('2d');
+  let W = 0, H = 0, ESC = 3, dpr = 1;
+  const estado = { lente: 'visitas', ind: null, destacado: null, figuras: [], grupos: [], gruposPrev: [], mezcla: 1, mezclaT0: 0, hover: null };
+  const params = new URLSearchParams(location.search);
+
+  function crearFiguras() {
+    estado.figuras = unidades[estado.lente].map((u) => {
+      const f = hacerFigura(u, estado.lente);
+      return { u, ...f, x: W / 2 + (Math.random() - .5) * 40, y: H * .7, tx: 0, ty: 0, retraso: 0, mov: false, izq: false };
+    });
+  }
+
+  function medir() {
+    const ancho = lienzo.clientWidth || document.documentElement.clientWidth;
+    W = ancho; dpr = Math.min(window.devicePixelRatio || 1, 2);
+    ESC = W < 560 ? 2 : W < 1000 ? 2 : 3;
+    const n = estado.ind ? gruposVisibles().length : 1;
+    const cols = columnas(n);
+    const filas = Math.ceil(n / cols);
+    const altoFila = ESC === 2 ? 250 : 330;
+    H = Math.max(ESC === 2 ? 330 : 470, Math.min(filas * altoFila + 40, filas === 1 ? Math.max(470, Math.min(640, innerHeight * .64)) : 9999));
+    if (filas === 1 && ESC === 2) H = Math.max(H, 340);
+    lienzo.width = Math.round(W * dpr); lienzo.height = Math.round(H * dpr); lienzo.style.height = H + 'px';
+  }
+  const columnas = (n) => (n <= 1 ? 1 : W >= 1000 ? n : W >= 640 ? Math.min(n, 4) : Math.min(n, 2));
+
+  function indicador() { return LENTES[estado.lente].indicadores.find((i) => i.key === estado.ind) || null; }
+  function gruposVisibles() {
+    const ind = indicador(); if (!ind) return [];
+    const lista = unidades[estado.lente];
+    return ind.cats.map((c) => ({ ...c, n: lista.filter((u) => u[ind.key] === c.key).length })).filter((c) => c.n > 0 || (ind.cero || []).includes(c.key));
+  }
+
+  // Positions inside a floor ellipse, nearest to the centre first, on a staggered grid. When the crowd does not fit,
+  // the ellipse grows mostly in depth (ry) so a group never spills into the next column.
+  function puestos(k, cx, cy, rx, ry, rxMax) {
+    const dx = ESC * 7.4, dy = ESC * 4.6, out = [];
+    for (let fila = -40; fila <= 40; fila++) for (let col = -40; col <= 40; col++) {
+      const x = (col + (fila % 2 ? .5 : 0)) * dx, y = fila * dy;
+      const d = (x * x) / (rx * rx) + (y * y) / (ry * ry);
+      if (d <= 1.0) out.push({ x: cx + x, y: cy + y, d });
+    }
+    out.sort((a, b) => a.d - b.d || a.y - b.y || a.x - b.x);
+    if (out.length < k) return puestos(k, cx, cy, Math.min(rx * 1.06, rxMax || Infinity), ry * 1.2, rxMax);
+    return out.slice(0, k);
+  }
+
+  function maquetar(animar = true) {
+    medir();
+    const ind = indicador();
+    estado.gruposPrev = estado.grupos;
+    const lista = estado.figuras;
+    let grupos;
+    const piso = ESC === 3 ? 34 : 24;
+    if (!ind) {
+      const rx = Math.min(W * .36, ESC === 3 ? 420 : 170), ry = rx * (ESC === 3 ? .26 : .34);
+      grupos = [{ key: 'todas', label: '', color: COL.crema, n: lista.length, cx: W / 2, cy: H * .66, rx, ry, rxMax: W * .44, fondoFila: H - piso, miembros: lista }];
+    } else {
+      const vis = gruposVisibles();
+      const cols = columnas(vis.length), filas = Math.ceil(vis.length / cols), anchoCol = W / cols, altoFila = H / filas;
+      grupos = vis.map((g, i) => {
+        const col = i % cols, fila = Math.floor(i / cols);
+        const restantes = vis.length - fila * cols, enFila = Math.min(cols, restantes);
+        const desplaz = (cols - enFila) * anchoCol / 2;
+        const area = Math.max(g.n, 1) * (ESC * 7.4) * (ESC * 4.6) * 1.15;
+        const prop = ESC === 3 ? .3 : .36;
+        const rxMax = anchoCol * .4;
+        let rx = Math.sqrt(area / (Math.PI * prop)); rx = Math.max(rx, ESC * 14); rx = Math.min(rx, rxMax);
+        const ry = rx * prop;
+        return { ...g, cx: desplaz + anchoCol * (col + .5), cy: altoFila * fila + altoFila * .7, rx, ry, rxMax, techo: altoFila * fila + 14, fondoFila: altoFila * (fila + 1) - piso, miembros: lista.filter((u) => u.u[ind.key] === g.key) };
+      });
+    }
+    // Targets: members sorted by id for stable places; nearest-first positions; then the crowd is moved down so its
+    // front row stands near the bottom of its row, and the floor ellipse is sized to the real crowd.
+    const ahora = performance.now();
+    for (const g of grupos) {
+      const ps = puestos(g.miembros.length, g.cx, g.cy, g.rx * .92, g.ry * .92, g.rxMax);
+      if (ps.length) {
+        const maxY = Math.max(...ps.map((p) => p.y)), minY = Math.min(...ps.map((p) => p.y));
+        const minX = Math.min(...ps.map((p) => p.x)), maxX = Math.max(...ps.map((p) => p.x));
+        const dy = g.fondoFila - maxY;
+        for (const p of ps) p.y += dy;
+        g.cy = (minY + maxY) / 2 + dy;
+        g.rx = Math.max(g.rx, (maxX - minX) / 2 + ESC * 8);
+        g.ry = Math.max(g.ry, (maxY - minY) / 2 + ESC * 4);
+        // the speech bubble over contacts' heads adds height to the crowd
+        g.arribaMultitud = minY + dy - FH * ESC - (g.miembros.some((f) => f.u.tipo) ? 8 * Math.max(1, ESC - 1) : 0);
+      } else {
+        g.cy = g.fondoFila - g.ry; g.arribaMultitud = g.cy - g.ry - ESC * 6;
+      }
+      const r = azar(g.key.length * 31 + g.miembros.length);
+      g.miembros.slice().sort((a, b) => a.u.id - b.u.id).forEach((f, i) => {
+        const p = ps[i];
+        f.tx = Math.round(p.x + (r() - .5) * ESC * 2); f.ty = Math.round(p.y + (r() - .5) * ESC);
+        const dist = Math.hypot(f.tx - f.x, f.ty - f.y);
+        f.retraso = animar && !reducir ? Math.min(380, dist * .4) * Math.random() : 0;
+        // fast enough to arrive in about 1.6 s, never slower than a calm walk
+        f.vel = Math.max(f.velocidad * (ESC / 3), dist / 1.6);
+        f.t0 = ahora;
+        if (!animar || reducir) { f.x = f.tx; f.y = f.ty; }
+      });
+    }
+    estado.grupos = grupos;
+    estado.mezcla = animar && !reducir ? 0 : 1; estado.mezclaT0 = performance.now();
+    pintarRotulos();
+    pintarTexto();
+  }
+
+  function pintarRotulos() {
+    const caja = $('rotulos'); caja.textContent = '';
+    const ind = indicador(); if (!ind) return;
+    const lente = LENTES[estado.lente];
+    for (const g of estado.grupos) {
+      const b = document.createElement('button'); b.type = 'button'; b.className = 'grupo' + (estado.grupos.length > 4 && ESC === 2 ? ' es-chico' : '');
+      const real = realDe(estado.lente, ind.key, g.key);
+      const nota = (ind.notas && ind.notas[g.key]) || (real == null ? '' : fmt(real) + ' % de las ' + lente.unidad);
+      b.innerHTML = `<b style="color:${g.color}">${g.n}</b><span>${g.label}</span><small>${nota}</small>`;
+      b.setAttribute('aria-label', `${g.n} de cada 100 ${lente.unidad}: ${g.label}${real == null ? '' : ' (' + fmt(real) + ' % real)'}`);
+      b.addEventListener('click', () => { estado.destacado = g.key; pintarTexto(); });
+      b.style.left = g.cx + 'px';
+      b.style.maxWidth = Math.max(110, Math.min(240, (W / columnas(estado.grupos.length)) - 12)) + 'px';
+      caja.appendChild(b);
+      // above the real top of the crowd, measured with the label's own height
+      b.style.top = Math.max(4, g.arribaMultitud - b.offsetHeight - (ESC === 3 ? 14 : 8)) + 'px';
+    }
+  }
+
+  function pintarTexto() {
+    const lente = LENTES[estado.lente], ind = indicador();
+    const frase = $('frase'), sub = $('frase-sub');
+    if (!ind) {
+      frase.textContent = lente.titulo;
+      sub.textContent = lente.todas();
+      lienzo.setAttribute('aria-label', `100 figuras, cada una representa ${estado.lente === 'visitas' ? 'unas ' + D.porFigura.visitas + ' visitas' : fmt(D.porFigura.contactos) + ' contactos'} reales.`);
+    } else {
+      const grupos = estado.grupos;
+      const clave = estado.destacado && grupos.some((g) => g.key === estado.destacado) ? estado.destacado : ind.destacar || grupos.slice().sort((a, b) => b.n - a.n)[0].key;
+      const g = grupos.find((x) => x.key === clave) || grupos[0];
+      const verbo = g.n === 1 && g.fraseUno ? g.fraseUno : g.frase;
+      frase.innerHTML = `De cada 100 ${lente.unidad}, <b style="color:${g.color}">${g.n}</b> ${verbo}.`;
+      const real = realDe(estado.lente, ind.key, g.key);
+      sub.innerHTML = `${ind.pregunta}${real == null ? '' : ` · En los datos: <code>${fmt(real)} %</code>`} · Google Analytics 4, ${D.periodo.texto}.`;
+      lienzo.setAttribute('aria-label', grupos.map((x) => `${x.label}: ${x.n}`).join('; '));
+    }
+    pintarTabla();
+  }
+
+  function pintarTabla() {
+    const ind = indicador(), lente = LENTES[estado.lente], cuerpo = $('tabla-cuerpo');
+    if (!ind) { cuerpo.innerHTML = `<p style="color:var(--tinta-3)">Elige un indicador para ver sus cifras.</p>`; return; }
+    const filas = ind.cats.map((c) => { const n = unidades[estado.lente].filter((u) => u[ind.key] === c.key).length; const real = realDe(estado.lente, ind.key, c.key); return `<tr><td>${c.label}</td><td>${n}</td><td>${real == null ? '—' : fmt(real) + ' %'}</td></tr>`; }).join('');
+    cuerpo.innerHTML = `<table><caption class="sr-only">${ind.label}</caption><thead><tr><th>${ind.label}</th><th>De cada 100 ${lente.unidad}</th><th>En los datos</th></tr></thead><tbody>${filas}</tbody></table>`;
+  }
+
+  // ---------- Drawing ----------
+  const rgba = (hex, a) => { const n = parseInt(hex.slice(1), 16); return `rgba(${(n >> 16) & 255},${(n >> 8) & 255},${n & 255},${a})`; };
+  function foco(g, alfa) {
+    if (alfa <= 0) return;
+    const { cx, cy, rx, ry, color } = g;
+    const techo = g.techo || 14;
+    // light fixture
+    ctx.fillStyle = rgba('#1c2340', alfa); ctx.fillRect(cx - 9, techo - 6, 18, 6);
+    ctx.fillStyle = rgba(color, .9 * alfa); ctx.fillRect(cx - 5, techo, 10, 2);
+    // cone
+    const grad = ctx.createLinearGradient(0, techo, 0, cy + ry);
+    grad.addColorStop(0, rgba(color, .26 * alfa)); grad.addColorStop(1, rgba(color, .05 * alfa));
+    ctx.fillStyle = grad; ctx.beginPath(); ctx.moveTo(cx - 6, techo + 2); ctx.lineTo(cx + 6, techo + 2); ctx.lineTo(cx + rx * 1.12, cy); ctx.lineTo(cx - rx * 1.12, cy); ctx.closePath(); ctx.fill();
+    // floor
+    const piso = ctx.createRadialGradient(cx, cy, 0, cx, cy, rx * 1.2);
+    piso.addColorStop(0, rgba(color, .42 * alfa)); piso.addColorStop(1, rgba(color, .06 * alfa));
+    ctx.save(); ctx.translate(cx, cy); ctx.scale(1, (ry * 1.25) / (rx * 1.2)); ctx.beginPath(); ctx.arc(0, 0, rx * 1.2, 0, Math.PI * 2); ctx.fillStyle = piso; ctx.fill(); ctx.lineWidth = 1.2; ctx.strokeStyle = rgba(color, .38 * alfa); ctx.stroke(); ctx.restore();
+  }
+  function fondo() {
+    const g = ctx.createRadialGradient(W / 2, H * .55, 0, W / 2, H * .55, Math.max(W, H) * .8);
+    g.addColorStop(0, '#0e1638'); g.addColorStop(1, '#060917');
+    ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+    // faint floor lines in perspective
+    ctx.save(); ctx.globalAlpha = .07; ctx.strokeStyle = '#cfd6ff'; ctx.lineWidth = 1;
+    const hz = H * .42;
+    for (let i = -14; i <= 14; i++) { ctx.beginPath(); ctx.moveTo(W / 2 + i * 18, hz); ctx.lineTo(W / 2 + i * W * .12, H); ctx.stroke(); }
+    for (let k = 1; k <= 7; k++) { const y = hz + (H - hz) * Math.pow(k / 7, 1.8); ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke(); }
+    ctx.restore();
+  }
+  function burbuja(x, y, tipo) {
+    const c = { whatsapp: '#5cc08f', telefono: '#62b8e8', formulario: '#7088f2', cotizacion: '#f0794a' }[tipo] || '#f0794a';
+    const s = Math.max(1, ESC - 1); const bx = Math.round(x - 3 * s), by = Math.round(y + 2 * ESC);
+    ctx.fillStyle = BORDE; ctx.fillRect(bx - s, by - s, 8 * s, 6 * s); ctx.fillRect(bx + s, by + 5 * s, 2 * s, 2 * s);
+    ctx.fillStyle = c; ctx.fillRect(bx, by, 6 * s, 4 * s); ctx.fillRect(bx + s, by + 4 * s, s, s);
+    ctx.fillStyle = '#ffffff'; ctx.fillRect(bx + s, by + 1.5 * s, s, s); ctx.fillRect(bx + 2.5 * s, by + 1.5 * s, s, s); ctx.fillRect(bx + 4 * s, by + 1.5 * s, s, s);
+  }
+  let ultimo = performance.now();
+  function cuadro(ahora) {
+    const dt = Math.min(50, ahora - ultimo); ultimo = ahora;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0); ctx.imageSmoothingEnabled = false;
+    fondo();
+    if (estado.mezcla < 1) estado.mezcla = Math.min(1, (ahora - estado.mezclaT0) / 600);
+    for (const g of estado.gruposPrev) foco(g, 1 - estado.mezcla);
+    for (const g of estado.grupos) foco(g, estado.mezcla);
+    // move
+    for (const f of estado.figuras) {
+      const listo = ahora - f.t0 >= f.retraso;
+      const dx = f.tx - f.x, dy = f.ty - f.y, d = Math.hypot(dx, dy);
+      if (listo && d > .5) { const v = (f.vel || f.velocidad) * dt / 1000; const k = Math.min(1, v / d); f.x += dx * k; f.y += dy * k; f.mov = true; if (Math.abs(dx) > 1) f.izq = dx < 0; }
+      else { f.mov = false; if (d <= .5) { f.x = f.tx; f.y = f.ty; } }
+    }
+    // draw, back to front
+    const orden = estado.figuras.slice().sort((a, b) => a.y - b.y);
+    const s = ESC, w = FW * s, h = FH * s;
+    for (const f of orden) {
+      const fx = Math.round(f.x), fy = Math.round(f.y);
+      // shadow
+      ctx.fillStyle = 'rgba(0,0,0,.35)'; ctx.beginPath(); ctx.ellipse(fx, fy, w * .36, s * 1.6, 0, 0, Math.PI * 2); ctx.fill();
+      if (estado.hover === f) { ctx.fillStyle = 'rgba(255,255,255,.28)'; ctx.beginPath(); ctx.ellipse(fx, fy, w * .55, s * 2.6, 0, 0, Math.PI * 2); ctx.fill(); }
+      const frame = f.mov ? f.frames[1 + (Math.floor(ahora / f.paso) % 2)] : f.frames[0];
+      const bob = !f.mov && !reducir && Math.sin(ahora / 900 + f.fase) > .93 ? -s : 0;
+      ctx.save();
+      if (f.izq) { ctx.translate(fx, 0); ctx.scale(-1, 1); ctx.drawImage(frame, Math.round(-w / 2), fy - h + bob, w, h); }
+      else ctx.drawImage(frame, Math.round(fx - w / 2), fy - h + bob, w, h);
+      ctx.restore();
+      if (f.u.tipo) burbuja(fx, fy - h - 8 * s, f.u.tipo);
+    }
+    requestAnimationFrame(cuadro);
+  }
+
+  // ---------- Hover / tap card ----------
+  const ficha = $('ficha');
+  const nombres = (k, v) => (C[k] && C[k][v]) || v;
+  function contenidoFicha(f) {
+    const u = f.u, ind = LENTES[estado.lente].indicadores;
+    const colorDe = (k, v) => (ind.find((i) => i.key === k)?.cats.find((c) => c.key === v)?.color) || '#a3a9bd';
+    const item = (k, txt) => `<li><i style="background:${colorDe(k, u[k])}"></i><span>${txt}</span></li>`;
+    if (estado.lente === 'visitas') {
+      return `<strong>Visita n.º ${u.id}</strong><ul>${item('d', nombres('d', u.d))}${item('c', nombres('c', u.c))}${item('e', 'Entró por ' + nombres('e', u.e).replace(/^El |^La |^Las |^Los |^Otros |^Otras /, (m) => m.toLowerCase()))}${item('n', nombres('n', u.n))}${item('y', nombres('y', u.y))}${u.calc === 'si' ? item('calc', 'Usó una calculadora') : ''}${u.tipo ? item('contacto', 'Nos contactó por ' + nombres('t', u.tipo)) : ''}</ul>`;
+    }
+    return `<strong>Contacto n.º ${u.id}</strong><ul>${item('t', nombres('t', u.t))}${item('d', nombres('d', u.d))}${item('c', nombres('c', u.c))}${item('e', 'Había entrado por ' + nombres('e', u.e).replace(/^El |^La |^Las |^Los |^Otros |^Otras /, (m) => m.toLowerCase()))}</ul>`;
+  }
+  function figuraEn(x, y) {
+    const s = ESC, w = FW * s, h = FH * s;
+    const orden = estado.figuras.slice().sort((a, b) => b.y - a.y);
+    return orden.find((f) => x >= f.x - w * .42 && x <= f.x + w * .42 && y >= f.y - h && y <= f.y + s) || null;
+  }
+  function mostrarFicha(f) {
+    estado.hover = f;
+    if (!f) { ficha.classList.remove('es-visible'); return; }
+    ficha.innerHTML = contenidoFicha(f);
+    const x = Math.max(120, Math.min(W - 120, f.x)), y = Math.max(ficha.offsetHeight + 20, f.y - FH * ESC);
+    ficha.style.left = x + 'px'; ficha.style.top = y + 'px';
+    ficha.classList.add('es-visible');
+  }
+  lienzo.addEventListener('pointermove', (e) => { if (e.pointerType === 'mouse') { const r = lienzo.getBoundingClientRect(); mostrarFicha(figuraEn(e.clientX - r.left, e.clientY - r.top)); } });
+  lienzo.addEventListener('pointerleave', () => mostrarFicha(null));
+  lienzo.addEventListener('click', (e) => { const r = lienzo.getBoundingClientRect(); const f = figuraEn(e.clientX - r.left, e.clientY - r.top); mostrarFicha(f === estado.hover && e.pointerType !== 'mouse' ? null : f); quitarIntro(); });
+
+  // ---------- Controls ----------
+  function pintarChips() {
+    const caja = $('chips'); caja.textContent = '';
+    const lista = [{ key: null, label: 'Todas' }].concat(LENTES[estado.lente].indicadores);
+    for (const i of lista) {
+      const b = document.createElement('button'); b.type = 'button'; b.textContent = i.label; b.setAttribute('aria-pressed', String(estado.ind === i.key));
+      b.addEventListener('click', () => { estado.ind = i.key; estado.destacado = null; pintarChips(); maquetar(true); guardarURL(); quitarIntro(); mostrarFicha(null); });
+      caja.appendChild(b);
+    }
+  }
+  function cambiarLente(l) {
+    if (estado.lente === l) return;
+    estado.lente = l; estado.ind = null; estado.destacado = null;
+    document.querySelectorAll('.lentes button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.lente === l)));
+    medir(); crearFiguras(); pintarChips(); maquetar(true); guardarURL(); quitarIntro(); mostrarFicha(null);
+  }
+  document.querySelectorAll('.lentes button').forEach((b) => b.addEventListener('click', () => cambiarLente(b.dataset.lente)));
+  function guardarURL() { const p = new URLSearchParams(); if (estado.lente !== 'visitas') p.set('lente', estado.lente); if (estado.ind) p.set('ver', estado.ind); history.replaceState(null, '', p.toString() ? '?' + p : location.pathname); }
+  function quitarIntro() { $('intro').classList.add('es-oculta'); }
+
+  // ---------- Method dialog ----------
+  const dlg = $('metodo');
+  $('abrir-metodo').addEventListener('click', () => (dlg.showModal ? dlg.showModal() : dlg.setAttribute('open', '')));
+  $('cerrar-metodo').addEventListener('click', () => dlg.close());
+  dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
+  const k = D.conteos.contactos;
+  $('metodo-cuerpo').innerHTML = `
+    <p>Las 100 figuras son <strong>visitas representativas</strong> de las ${miles(D.visitas)} que tuvieron actuaria.com y la landing del estudio actuarial ${D.periodo.texto}. Cada figura vale unas ${miles(D.porFigura.visitas)} visitas reales.</p>
+    <h3>Cómo se eligieron</h3>
+    <p>Google Analytics no entrega visitas sueltas, solo totales cruzados de a dos (por ejemplo, canal por aparato o canal por página de entrada). Con esos cruces se armó una tabla de todas las combinaciones posibles mediante un ajuste proporcional iterativo. Después se probaron miles de grupos de 100 hasta dar con el que reproduce los totales de cada indicador y los cruces principales. Por eso, al cambiar de filtro, cada figura conserva su aparato, su canal, su página de entrada y su ciudad.</p>
+    <h3>Los contactos</h3>
+    <p>En el periodo hubo ${miles(D.contactos)} contactos: ${k.whatsapp} clics en WhatsApp, ${k.telefono} en el teléfono y ${k.formulario} formularios enviados. Se mide el clic, no si la conversación o la llamada se concretaron. Las cotizaciones de la landing se cuentan desde el 9 de noviembre, por eso todavía aparecen en cero. Con ${fmt(D.real.visitas.contacto.si)} contactos por cada 100 visitas, en la vista de visitas aparece una sola figura con globo; la vista «100 contactos» muestra cómo se reparten.</p>
+    <h3>Otras cifras</h3>
+    <ul>
+      <li><strong>Calculadoras:</strong> el ${fmt(D.real.visitas.calc.si)} % de los usuarios interactuó con una calculadora (${miles(D.calculadoras.usuarios)} de ${miles(D.calculadoras.usuariosTotal)}). Es una estimación por usuarios, no por visitas.</li>
+      <li><strong>Fuera de Ecuador:</strong> incluye visitas de centros de datos (Ashburn, Singapur, Des Moines, Boardman…), que suelen ser robots o vistas previas de enlaces.</li>
+      <li><strong>Primera vez:</strong> se reparte con las visitas que tienen el dato; unas pocas no lo tienen.</li>
+      <li>La oficina de Quito no se cuenta en Google Analytics desde el 21 de octubre. El 26 y 27 de octubre, algunos clics del botón «Compartir» del blog pudieron contarse como WhatsApp.</li>
+    </ul>
+    <h3>Las figuras</h3>
+    <p>El aspecto de cada figura (piel, pelo, ropa) es ilustrativo y no sale de los datos. Lo único que sí sale es lo que lleva en la mano: celular, computadora o tableta, el aparato real de esa visita. El globo sobre la cabeza marca a quien nos contactó.</p>
+    <h3>Privacidad</h3>
+    <p>Solo se usan totales de Google Analytics: ningún nombre, correo, dirección IP ni identificador de una persona.</p>`;
+
+  // ---------- Start ----------
+  $('periodo').textContent = '2 oct – 9 nov 2026';
+  $('pie-periodo').textContent = D.periodo.texto;
+  if (params.get('lente') === 'contactos') { estado.lente = 'contactos'; document.querySelectorAll('.lentes button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.lente === 'contactos'))); }
+  const pedido = params.get('ver');
+  if (pedido && LENTES[estado.lente].indicadores.some((i) => i.key === pedido)) estado.ind = pedido;
+  medir(); crearFiguras(); pintarChips();
+  // the crowd starts off to both sides and walks in
+  for (const f of estado.figuras) { f.x = Math.random() < .5 ? -40 - Math.random() * 120 : W + 40 + Math.random() * 120; f.y = H * (.55 + Math.random() * .3); }
+  maquetar(true);
+  if (estado.ind) quitarIntro(); else setTimeout(quitarIntro, reducir ? 0 : 2200);
+  let anchoPrevio = W;
+  new ResizeObserver(() => { const a = lienzo.clientWidth; if (Math.abs(a - anchoPrevio) > 2) { anchoPrevio = a; maquetar(false); } }).observe(lienzo);
+  requestAnimationFrame(cuadro);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => pintarRotulos());
+})();
+</script>
+</body>
+</html>
