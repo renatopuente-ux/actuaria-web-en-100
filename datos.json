@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-10T20:17:32.350Z",
+ "generado": "2026-11-11T19:20:55.072Z",
  "periodo": {
   "desde": "2026-10-02",
   "hasta": "2026-11-09",
@@ -8,9 +8,11 @@
  },
  "fuente": "Google Analytics 4 (G-PG79TRGV7Z) · informes de adquisición, páginas de destino y eventos",
  "visitas": 12503,
+ "usuarios": 9834,
  "contactos": 165,
  "porFigura": {
   "visitas": 125,
+  "usuarios": 98,
   "contactos": 1.7
  },
  "calculadoras": {
@@ -170,10 +172,12 @@
     "en": 2.8
    },
    "contacto": {
-    "si": 1.3
+    "si": 1.3,
+    "no": 98.7
    },
    "calc": {
-    "si": 5.3
+    "si": 5.3,
+    "no": 94.7
    }
   },
   "contactos": {
@@ -226,29 +230,1118 @@
     "noche": 10.3,
     "madrugada": 6.1
    }
+  },
+  "usuarios": {
+   "d": {
+    "celular": 52.8,
+    "tableta": 0.3,
+    "escritorio": 46.9
+   },
+   "c": {
+    "meta": 31.3,
+    "directo": 21.6,
+    "buscador": 21.6,
+    "gads": 16.9,
+    "correo": 3.6,
+    "otros": 4.9
+   },
+   "y": {
+    "quito": 28.1,
+    "guayaquil": 20.3,
+    "cuenca": 2.8,
+    "ecuador": 24.9,
+    "fuera": 23.8
+   },
+   "n": {
+    "vuelve": 10.4,
+    "nueva": 89.6
+   },
+   "contacto": {
+    "si": 1.2,
+    "no": 98.8
+   },
+   "calc": {
+    "si": 5.3,
+    "no": 94.7
+   }
   }
  },
  "conteos": {
+  "visitas": {
+   "d": {
+    "celular": 5922,
+    "tableta": 36,
+    "escritorio": 6570
+   },
+   "c": {
+    "meta": 3311,
+    "directo": 2681,
+    "buscador": 3049,
+    "gads": 2360,
+    "correo": 446,
+    "otros": 681
+   },
+   "e": {
+    "inicio": 3650,
+    "otras": 1697,
+    "calculadoras": 1515,
+    "servicios": 213,
+    "blog": 2349,
+    "landing": 1362,
+    "articulo": 1793
+   },
+   "n": {
+    "nueva": 9894,
+    "vuelve": 1874
+   },
+   "y": {
+    "quito": 4281,
+    "guayaquil": 2478,
+    "cuenca": 341,
+    "ecuador": 2944,
+    "fuera": 2517
+   },
+   "m": {
+    "m2026-10": 9020,
+    "m2026-11": 3557
+   },
+   "s": {
+    "laborable": 10063,
+    "finde": 2514
+   },
+   "w": {
+    "mar": 1745,
+    "mie": 2238,
+    "jue": 1981,
+    "vie": 1885,
+    "sab": 1375,
+    "dom": 1139,
+    "lun": 2214
+   },
+   "h": {
+    "noche": 3309,
+    "tarde": 5295,
+    "madrugada": 986,
+    "manana": 3497
+   },
+   "o": {
+    "android": 4867,
+    "ios": 1142,
+    "otros": 440,
+    "mac": 457,
+    "windows": 5680
+   },
+   "g": {
+    "si": 5331,
+    "no": 7197
+   },
+   "l": {
+    "es": 12228,
+    "en": 351
+   },
+   "contacto": {
+    "si": 165,
+    "no": 12338
+   }
+  },
   "contactos": {
+   "t": {
+    "whatsapp": 119,
+    "telefono": 24,
+    "formulario": 22,
+    "cotizacion": 0
+   },
+   "d": {
+    "escritorio": 88,
+    "celular": 77
+   },
+   "c": {
+    "gads": 74,
+    "buscador": 27,
+    "directo": 26,
+    "meta": 25,
+    "otros": 10,
+    "correo": 3
+   },
+   "e": {
+    "inicio": 95,
+    "otras": 18,
+    "calculadoras": 10,
+    "blog": 14,
+    "servicios": 4,
+    "articulo": 24
+   },
+   "m": {
+    "m2026-10": 140,
+    "m2026-11": 25
+   },
+   "s": {
+    "laborable": 154,
+    "finde": 11
+   },
+   "w": {
+    "vie": 15,
+    "lun": 36,
+    "mar": 23,
+    "mie": 52,
+    "jue": 28,
+    "sab": 9,
+    "dom": 2
+   },
+   "h": {
+    "tarde": 84,
+    "manana": 54,
+    "noche": 17,
+    "madrugada": 10
+   }
+  },
+  "usuarios": {
+   "d": {
+    "celular": 5250,
+    "tableta": 32,
+    "escritorio": 4667
+   },
+   "c": {
+    "meta": 3116,
+    "directo": 2149,
+    "buscador": 2148,
+    "gads": 1685,
+    "correo": 363,
+    "otros": 488
+   },
+   "y": {
+    "quito": 2810,
+    "guayaquil": 2032,
+    "cuenca": 282,
+    "ecuador": 2494,
+    "fuera": 2385
+   },
+   "n": {
+    "vuelve": 1032,
+    "nueva": 8917
+   },
+   "contacto": {
+    "si": 118,
+    "no": 9716
+   },
+   "calc": {
+    "si": 520,
+    "no": 9314
+   }
+  },
+  "tipos": {
    "whatsapp": 119,
    "telefono": 24,
    "formulario": 22,
    "cotizacion": 0
-  },
-  "dispositivos": {
-   "visitas": {
-    "escritorio": 6570,
-    "celular": 5922,
-    "tableta": 36
-   },
-   "contactos": {
-    "escritorio": 88,
-    "celular": 77,
-    "tableta": 0
-   }
   }
  },
  "lentes": {
+  "usuarios": {
+   "unidades": [
+    {
+     "id": 1,
+     "d": "escritorio",
+     "c": "correo",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 2,
+     "d": "celular",
+     "c": "meta",
+     "y": "guayaquil",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 3,
+     "d": "celular",
+     "c": "buscador",
+     "y": "guayaquil",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 4,
+     "d": "escritorio",
+     "c": "buscador",
+     "y": "guayaquil",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 5,
+     "d": "escritorio",
+     "c": "buscador",
+     "y": "guayaquil",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 6,
+     "d": "escritorio",
+     "c": "buscador",
+     "y": "guayaquil",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 7,
+     "d": "escritorio",
+     "c": "buscador",
+     "y": "guayaquil",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 8,
+     "d": "escritorio",
+     "c": "buscador",
+     "y": "ecuador",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 9,
+     "d": "escritorio",
+     "c": "buscador",
+     "y": "ecuador",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 10,
+     "d": "escritorio",
+     "c": "buscador",
+     "y": "ecuador",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 11,
+     "d": "escritorio",
+     "c": "otros",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 12,
+     "d": "celular",
+     "c": "buscador",
+     "y": "fuera",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 13,
+     "d": "celular",
+     "c": "meta",
+     "y": "guayaquil",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 14,
+     "d": "celular",
+     "c": "meta",
+     "y": "guayaquil",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 15,
+     "d": "celular",
+     "c": "meta",
+     "y": "guayaquil",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 16,
+     "d": "celular",
+     "c": "meta",
+     "y": "guayaquil",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 17,
+     "d": "celular",
+     "c": "meta",
+     "y": "guayaquil",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 18,
+     "d": "celular",
+     "c": "meta",
+     "y": "guayaquil",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 19,
+     "d": "celular",
+     "c": "meta",
+     "y": "guayaquil",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 20,
+     "d": "escritorio",
+     "c": "gads",
+     "y": "cuenca",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 21,
+     "d": "celular",
+     "c": "meta",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 22,
+     "d": "celular",
+     "c": "meta",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 23,
+     "d": "celular",
+     "c": "meta",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 24,
+     "d": "celular",
+     "c": "meta",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 25,
+     "d": "celular",
+     "c": "meta",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 26,
+     "d": "escritorio",
+     "c": "gads",
+     "y": "guayaquil",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 27,
+     "d": "escritorio",
+     "c": "gads",
+     "y": "guayaquil",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 28,
+     "d": "celular",
+     "c": "gads",
+     "y": "guayaquil",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 29,
+     "d": "celular",
+     "c": "gads",
+     "y": "guayaquil",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 30,
+     "d": "celular",
+     "c": "gads",
+     "y": "guayaquil",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 31,
+     "d": "celular",
+     "c": "directo",
+     "y": "fuera",
+     "n": "vuelve",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 32,
+     "d": "celular",
+     "c": "directo",
+     "y": "fuera",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 33,
+     "d": "celular",
+     "c": "directo",
+     "y": "fuera",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 34,
+     "d": "celular",
+     "c": "otros",
+     "y": "fuera",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 35,
+     "d": "escritorio",
+     "c": "correo",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 36,
+     "d": "escritorio",
+     "c": "directo",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 37,
+     "d": "escritorio",
+     "c": "directo",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 38,
+     "d": "escritorio",
+     "c": "gads",
+     "y": "ecuador",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 39,
+     "d": "escritorio",
+     "c": "directo",
+     "y": "ecuador",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 40,
+     "d": "celular",
+     "c": "otros",
+     "y": "ecuador",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 41,
+     "d": "escritorio",
+     "c": "otros",
+     "y": "fuera",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 42,
+     "d": "escritorio",
+     "c": "otros",
+     "y": "fuera",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 43,
+     "d": "celular",
+     "c": "gads",
+     "y": "ecuador",
+     "n": "vuelve",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 44,
+     "d": "celular",
+     "c": "meta",
+     "y": "cuenca",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 45,
+     "d": "celular",
+     "c": "meta",
+     "y": "cuenca",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 46,
+     "d": "celular",
+     "c": "buscador",
+     "y": "ecuador",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 47,
+     "d": "celular",
+     "c": "buscador",
+     "y": "ecuador",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 48,
+     "d": "escritorio",
+     "c": "gads",
+     "y": "quito",
+     "n": "vuelve",
+     "contacto": "si",
+     "calc": "si"
+    },
+    {
+     "id": 49,
+     "d": "escritorio",
+     "c": "gads",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 50,
+     "d": "escritorio",
+     "c": "gads",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 51,
+     "d": "escritorio",
+     "c": "gads",
+     "y": "quito",
+     "n": "vuelve",
+     "contacto": "no",
+     "calc": "si"
+    },
+    {
+     "id": 52,
+     "d": "escritorio",
+     "c": "directo",
+     "y": "guayaquil",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 53,
+     "d": "celular",
+     "c": "directo",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 54,
+     "d": "escritorio",
+     "c": "correo",
+     "y": "fuera",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 55,
+     "d": "escritorio",
+     "c": "correo",
+     "y": "fuera",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 56,
+     "d": "escritorio",
+     "c": "buscador",
+     "y": "fuera",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 57,
+     "d": "escritorio",
+     "c": "buscador",
+     "y": "fuera",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 58,
+     "d": "escritorio",
+     "c": "directo",
+     "y": "fuera",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 59,
+     "d": "escritorio",
+     "c": "directo",
+     "y": "fuera",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 60,
+     "d": "escritorio",
+     "c": "directo",
+     "y": "fuera",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 61,
+     "d": "escritorio",
+     "c": "directo",
+     "y": "fuera",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 62,
+     "d": "escritorio",
+     "c": "directo",
+     "y": "fuera",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 63,
+     "d": "escritorio",
+     "c": "directo",
+     "y": "fuera",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 64,
+     "d": "escritorio",
+     "c": "directo",
+     "y": "fuera",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 65,
+     "d": "escritorio",
+     "c": "directo",
+     "y": "fuera",
+     "n": "vuelve",
+     "contacto": "no",
+     "calc": "si"
+    },
+    {
+     "id": 66,
+     "d": "escritorio",
+     "c": "directo",
+     "y": "fuera",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 67,
+     "d": "escritorio",
+     "c": "directo",
+     "y": "fuera",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 68,
+     "d": "escritorio",
+     "c": "directo",
+     "y": "fuera",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 69,
+     "d": "escritorio",
+     "c": "directo",
+     "y": "fuera",
+     "n": "vuelve",
+     "contacto": "no",
+     "calc": "si"
+    },
+    {
+     "id": 70,
+     "d": "escritorio",
+     "c": "directo",
+     "y": "fuera",
+     "n": "vuelve",
+     "contacto": "no",
+     "calc": "si"
+    },
+    {
+     "id": 71,
+     "d": "escritorio",
+     "c": "directo",
+     "y": "guayaquil",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 72,
+     "d": "celular",
+     "c": "meta",
+     "y": "ecuador",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 73,
+     "d": "celular",
+     "c": "meta",
+     "y": "ecuador",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 74,
+     "d": "celular",
+     "c": "meta",
+     "y": "ecuador",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 75,
+     "d": "celular",
+     "c": "meta",
+     "y": "ecuador",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 76,
+     "d": "celular",
+     "c": "meta",
+     "y": "ecuador",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 77,
+     "d": "celular",
+     "c": "meta",
+     "y": "ecuador",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 78,
+     "d": "celular",
+     "c": "meta",
+     "y": "ecuador",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 79,
+     "d": "celular",
+     "c": "meta",
+     "y": "ecuador",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 80,
+     "d": "celular",
+     "c": "meta",
+     "y": "ecuador",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 81,
+     "d": "celular",
+     "c": "meta",
+     "y": "ecuador",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 82,
+     "d": "celular",
+     "c": "meta",
+     "y": "ecuador",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 83,
+     "d": "celular",
+     "c": "meta",
+     "y": "ecuador",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 84,
+     "d": "celular",
+     "c": "meta",
+     "y": "ecuador",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 85,
+     "d": "celular",
+     "c": "meta",
+     "y": "ecuador",
+     "n": "vuelve",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 86,
+     "d": "celular",
+     "c": "meta",
+     "y": "ecuador",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 87,
+     "d": "celular",
+     "c": "meta",
+     "y": "ecuador",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 88,
+     "d": "celular",
+     "c": "gads",
+     "y": "quito",
+     "n": "vuelve",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 89,
+     "d": "celular",
+     "c": "gads",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 90,
+     "d": "celular",
+     "c": "gads",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 91,
+     "d": "celular",
+     "c": "gads",
+     "y": "quito",
+     "n": "vuelve",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 92,
+     "d": "celular",
+     "c": "gads",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 93,
+     "d": "celular",
+     "c": "buscador",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 94,
+     "d": "celular",
+     "c": "buscador",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 95,
+     "d": "celular",
+     "c": "buscador",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 96,
+     "d": "escritorio",
+     "c": "buscador",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 97,
+     "d": "escritorio",
+     "c": "buscador",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 98,
+     "d": "escritorio",
+     "c": "buscador",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 99,
+     "d": "escritorio",
+     "c": "buscador",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    },
+    {
+     "id": 100,
+     "d": "escritorio",
+     "c": "buscador",
+     "y": "quito",
+     "n": "nueva",
+     "contacto": "no",
+     "calc": "no"
+    }
+   ],
+   "perdida": 16.351790630610125
+  },
   "visitas": {
    "unidades": [
     {
